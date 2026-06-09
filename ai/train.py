@@ -41,11 +41,14 @@ def main():
     ap.add_argument("--epochs", type=int, default=200)
     ap.add_argument("--batch", type=int, default=512)
     ap.add_argument("--lr", type=float, default=2e-3)
+    ap.add_argument("--wd", type=float, default=0.0, help="Adam weight decay")
     ap.add_argument("--patience", type=int, default=15)
     ap.add_argument("--hidden", type=int, default=64)
     ap.add_argument("--layers", type=int, default=3)
+    ap.add_argument("--seed", type=int, default=0, help="torch init seed")
     a = ap.parse_args()
 
+    torch.manual_seed(a.seed)        # reproducible weight init / dropout draws
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"Distillation training on {device.upper()} "
           f"({'CUDA' if device=='cuda' else 'CPU reduced'} run). "
@@ -68,7 +71,7 @@ def main():
     model = RingGNN(in_dim, a.hidden, a.layers).to(device)
     n_params = sum(p.numel() for p in model.parameters())
     print(f"model params: {n_params:,}")
-    opt = torch.optim.Adam(model.parameters(), lr=a.lr)
+    opt = torch.optim.Adam(model.parameters(), lr=a.lr, weight_decay=a.wd)
     sched = torch.optim.lr_scheduler.ReduceLROnPlateau(opt, factor=0.5,
                                                        patience=5)
 

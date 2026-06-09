@@ -26,7 +26,9 @@ class GNNLayer(nn.Module):
 
     def forward(self, h, a_norm):
         agg = torch.bmm(a_norm, h)
-        return torch.relu(self.self_lin(h) + self.lin(agg))
+        # residual block: lets us stack more message-passing layers without the
+        # signal washing out (identity path keeps gradients healthy on CPU/GPU).
+        return h + torch.relu(self.self_lin(h) + self.lin(agg))
 
 
 class RingGNN(nn.Module):

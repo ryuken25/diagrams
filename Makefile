@@ -24,9 +24,9 @@ check:
 
 # Train the offline 'AI tidy' model (NOT committed; see .gitignore)
 train:
-	python ai/data_gen.py --n 12000 --out ai/artifacts/dataset.npz
+	python ai/data_gen.py --n 40000 --out ai/artifacts/dataset.npz
 	python ai/train.py  --data ai/artifacts/dataset.npz --out ai/artifacts/ringgnn.pt \
-		--epochs 300 --batch 512 --hidden 96 --layers 4 --patience 25
+		--epochs 600 --batch 512 --hidden 128 --layers 5 --lr 2e-3 --wd 1e-5 --patience 60
 
 eval:
 	python ai/eval.py
