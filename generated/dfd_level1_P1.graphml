@@ -143,7 +143,7 @@ Edit User</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="69.0" x="1310.5" y="180.7"/>
+          <y:Geometry height="24.0" width="69.0" x="1294.4" y="180.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_user</y:NodeLabel>
@@ -155,7 +155,7 @@ Edit User</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="69.0" x="1345.5" y="237.4"/>
+          <y:Geometry height="24.0" width="69.0" x="1330.1" y="237.4"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_user</y:NodeLabel>
@@ -191,7 +191,7 @@ Edit User</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="69.0" x="1310.5" y="784.6"/>
+          <y:Geometry height="24.0" width="69.0" x="1294.4" y="784.6"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_user</y:NodeLabel>
@@ -203,7 +203,7 @@ Edit User</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="69.0" x="1345.5" y="841.3"/>
+          <y:Geometry height="24.0" width="69.0" x="1330.1" y="841.3"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_user</y:NodeLabel>

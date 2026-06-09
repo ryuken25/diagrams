@@ -203,11 +203,17 @@ def _route_ortho(diagram, procs, exts, stores, EXT_X, STORE_X):
             for i, eid in enumerate(eids):
                 port.setdefault(eid, {})["periph"] = (rx, (i + 1) / (n + 1))
         else:
+            # top/bottom entries: order the drop channels across the store face
+            # by the process END's Y (verticals don't cross) and keep them in the
+            # store's NEAR (process-facing, left) half so each vertical is a short,
+            # tidy stub instead of crossing the whole store width.
             ry = 0.0 if side == "T" else 1.0
-            eids.sort(key=lambda eid: info[eid]["proc"].cx)
+            eids.sort(key=lambda eid: info[eid]["proc"].cy)
             n = len(eids)
+            lo_f, hi_f = 0.18, 0.52
             for i, eid in enumerate(eids):
-                port.setdefault(eid, {})["periph"] = ((i + 1) / (n + 1), ry)
+                f = lo_f if n == 1 else lo_f + (hi_f - lo_f) * i / (n - 1)
+                port.setdefault(eid, {})["periph"] = (f, ry)
 
     def anchor(node, frac):
         return node.x + frac[0] * node.w, node.y + frac[1] * node.h

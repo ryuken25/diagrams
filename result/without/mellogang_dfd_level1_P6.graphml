@@ -218,7 +218,7 @@ Pengeluaran</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="187.0" x="1250.8" y="528.0"/>
+          <y:Geometry height="24.0" width="187.0" x="1233.7" y="528.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_pengeluaran_operasional</y:NodeLabel>
@@ -230,7 +230,7 @@ Pengeluaran</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="187.0" x="1287.8" y="562.0"/>
+          <y:Geometry height="24.0" width="187.0" x="1271.5" y="562.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_pengeluaran_operasional</y:NodeLabel>
@@ -242,7 +242,7 @@ Pengeluaran</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="187.0" x="1250.5" y="784.6"/>
+          <y:Geometry height="24.0" width="187.0" x="1233.5" y="784.6"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_pengeluaran_operasional</y:NodeLabel>
@@ -254,7 +254,7 @@ Pengeluaran</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="187.0" x="1287.5" y="841.3"/>
+          <y:Geometry height="24.0" width="187.0" x="1271.2" y="841.3"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_pengeluaran_operasional</y:NodeLabel>

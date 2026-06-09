@@ -132,7 +132,7 @@ Pembayaran</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="107.0" x="1291.5" y="180.6"/>
+          <y:Geometry height="24.0" width="107.0" x="1275.4" y="180.6"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_pembayaran</y:NodeLabel>
@@ -144,7 +144,7 @@ Pembayaran</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="107.0" x="1326.5" y="237.3"/>
+          <y:Geometry height="24.0" width="107.0" x="1311.1" y="237.3"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_pembayaran</y:NodeLabel>
@@ -156,7 +156,7 @@ Pembayaran</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="107.0" x="1289.3" y="455.6"/>
+          <y:Geometry height="24.0" width="107.0" x="1274.4" y="457.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_pembayaran</y:NodeLabel>
@@ -168,7 +168,7 @@ Pembayaran</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="107.0" x="1285.4" y="486.2"/>
+          <y:Geometry height="24.0" width="107.0" x="1277.8" y="489.6"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_pembayaran</y:NodeLabel>
@@ -180,7 +180,7 @@ Pembayaran</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="100.0" x="1402.3" y="515.2"/>
+          <y:Geometry height="24.0" width="100.0" x="1393.4" y="509.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_pemesanan</y:NodeLabel>

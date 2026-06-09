@@ -98,7 +98,7 @@ Editing</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="138.0" x="1383.4" y="190.4"/>
+          <y:Geometry height="24.0" width="138.0" x="1378.6" y="190.3"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_jadwal_produksi</y:NodeLabel>
@@ -110,7 +110,7 @@ Editing</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1181.7" y="172.6"/>
+          <y:Geometry height="24.0" width="76.0" x="1174.3" y="171.1"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_admin</y:NodeLabel>
@@ -170,7 +170,7 @@ Editing</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="100.0" x="1268.8" y="192.0"/>
+          <y:Geometry height="24.0" width="100.0" x="1260.6" y="190.8"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_pemesanan</y:NodeLabel>
@@ -182,7 +182,7 @@ Editing</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="100.0" x="1364.0" y="222.5"/>
+          <y:Geometry height="24.0" width="100.0" x="1359.4" y="221.5"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_pemesanan</y:NodeLabel>
@@ -194,7 +194,7 @@ Editing</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="100.0" x="1295.0" y="762.0"/>
+          <y:Geometry height="24.0" width="100.0" x="1278.9" y="762.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_pemesanan</y:NodeLabel>
@@ -206,7 +206,7 @@ Editing</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="100.0" x="1330.0" y="796.0"/>
+          <y:Geometry height="24.0" width="100.0" x="1314.6" y="796.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_pemesanan</y:NodeLabel>
@@ -218,7 +218,7 @@ Editing</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="138.0" x="1218.2" y="246.5"/>
+          <y:Geometry height="24.0" width="138.0" x="1208.7" y="248.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_jadwal_produksi</y:NodeLabel>
@@ -230,7 +230,7 @@ Editing</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="138.0" x="1292.9" y="277.1"/>
+          <y:Geometry height="24.0" width="138.0" x="1282.6" y="279.6"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_jadwal_produksi</y:NodeLabel>
@@ -242,7 +242,7 @@ Editing</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="138.0" x="1304.0" y="482.7"/>
+          <y:Geometry height="24.0" width="138.0" x="1283.7" y="482.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_jadwal_produksi</y:NodeLabel>
@@ -254,7 +254,7 @@ Editing</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="138.0" x="1325.0" y="539.4"/>
+          <y:Geometry height="24.0" width="138.0" x="1295.6" y="539.4"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_jadwal_produksi</y:NodeLabel>
@@ -266,7 +266,7 @@ Editing</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="138.0" x="1276.0" y="830.0"/>
+          <y:Geometry height="24.0" width="138.0" x="1259.9" y="830.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_jadwal_produksi</y:NodeLabel>
@@ -278,7 +278,7 @@ Editing</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="138.0" x="1311.0" y="864.0"/>
+          <y:Geometry height="24.0" width="138.0" x="1295.6" y="864.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_jadwal_produksi</y:NodeLabel>

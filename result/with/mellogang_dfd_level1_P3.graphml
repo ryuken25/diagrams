@@ -145,7 +145,7 @@ Paket &amp; Portofolio</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="144.0" x="1387.0" y="804.0"/>
+          <y:Geometry height="24.0" width="144.0" x="1390.1" y="803.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_paket_portofolio</y:NodeLabel>
@@ -169,7 +169,7 @@ Paket &amp; Portofolio</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1307.0" y="180.6"/>
+          <y:Geometry height="24.0" width="76.0" x="1290.9" y="180.6"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_paket</y:NodeLabel>
@@ -181,7 +181,7 @@ Paket &amp; Portofolio</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1342.0" y="237.3"/>
+          <y:Geometry height="24.0" width="76.0" x="1326.6" y="237.3"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_paket</y:NodeLabel>
@@ -193,7 +193,7 @@ Paket &amp; Portofolio</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1284.8" y="741.0"/>
+          <y:Geometry height="24.0" width="76.0" x="1271.2" y="741.6"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_paket</y:NodeLabel>
@@ -205,7 +205,7 @@ Paket &amp; Portofolio</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1366.7" y="772.4"/>
+          <y:Geometry height="24.0" width="76.0" x="1345.8" y="772.8"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_paket</y:NodeLabel>
@@ -217,7 +217,7 @@ Paket &amp; Portofolio</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="107.0" x="1291.5" y="482.6"/>
+          <y:Geometry height="24.0" width="107.0" x="1275.4" y="482.6"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_portofolio</y:NodeLabel>
@@ -229,7 +229,7 @@ Paket &amp; Portofolio</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="107.0" x="1326.5" y="539.3"/>
+          <y:Geometry height="24.0" width="107.0" x="1311.1" y="539.3"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_portofolio</y:NodeLabel>
@@ -241,7 +241,7 @@ Paket &amp; Portofolio</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="107.0" x="1252.3" y="803.0"/>
+          <y:Geometry height="24.0" width="107.0" x="1238.6" y="802.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_portofolio</y:NodeLabel>
@@ -253,7 +253,7 @@ Paket &amp; Portofolio</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="107.0" x="1330.7" y="834.1"/>
+          <y:Geometry height="24.0" width="107.0" x="1312.7" y="834.3"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_portofolio</y:NodeLabel>
