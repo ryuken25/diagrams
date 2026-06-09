@@ -1,0 +1,10 @@
+{
+  "test_samples": 1200,
+  "mean_crossing_gap": 6.039166666666667,
+  "optimal_rate": 0.35583333333333333,
+  "within_1_rate": 0.4841666666666667,
+  "mellogang_label_overlap": 0,
+  "mellogang_shape_overlap": 0,
+  "mellogang_model_crossings": 2,
+  "mellogang_teacher_crossings": 0
+}

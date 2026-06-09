@@ -1,0 +1,3 @@
+# Core engine + exporters: pure standard library (no install needed).
+# Only the optional PNG preview/gallery needs matplotlib:
+matplotlib

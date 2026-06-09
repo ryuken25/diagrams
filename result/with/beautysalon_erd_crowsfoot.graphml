@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <key for="node" id="d_node" yfiles.type="nodegraphics"/>
+  <key for="edge" id="d_edge" yfiles.type="edgegraphics"/>
+  <key for="node" attr.name="kind" attr.type="string" id="d_kind"/>
+  <graph edgedefault="directed" id="ERD Crow's Foot (Beauty Salon)">
+    <node id="n0">
+      <data key="d_kind">entity</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="226.0" width="170.0" x="61.0" y="60.0"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">users
+────────────────
+PK id
+   email
+   password_hash
+   nama
+   role
+   is_active
+   created_at
+   updated_at
+   nomor_hp</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n1">
+      <data key="d_kind">entity</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="336.0" width="172.0" x="60.0" y="356.0"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">layanan
+────────────────
+PK id
+   nama
+   kategori
+   deskripsi
+   durasi_menit
+   harga
+   ikon
+   is_active
+   created_at
+   updated_at
+   deleted_at
+   gambar
+   promo_persen
+   promo_deskripsi</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n2">
+      <data key="d_kind">entity</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="688.0" width="225.0" x="382.0" y="125.0"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">bookings
+────────────────
+PK id
+   kode_booking
+   nama_pelanggan
+   nomor_hp_pelanggan
+   layanan_id
+   tanggal
+   slot_mulai
+   slot_selesai
+   jumlah_slot
+   harga_layanan
+   status
+   sumber
+   catatan
+   wa_sent
+   verified_via
+   verified_at
+   completed_at
+   cancelled_at
+   cancelled_by
+   rejection_reason
+   created_at
+   updated_at
+   cancellation_reason
+   email_pelanggan
+   user_id
+   dp_amount
+   dp_proof_path
+   payment_status
+   email_reminder_sent_at
+FK id</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n3">
+      <data key="d_kind">entity</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="182.0" width="170.0" x="765.5" y="71.0"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">booking_slots
+────────────────
+PK id
+   booking_id
+   tanggal
+   slot_waktu
+   status
+   created_at
+FK id</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n4">
+      <data key="d_kind">entity</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="248.0" width="187.0" x="757.0" y="323.0"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">transaksi
+────────────────
+PK id
+   booking_id
+   nominal
+   metode_bayar
+   tanggal_transaksi
+   catatan
+   created_at
+   base_price
+   additional_price
+FK id</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n5">
+      <data key="d_kind">entity</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="116.0" width="170.0" x="61.0" y="762.0"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">settings
+────────────────
+PK id
+   key_name
+   value
+   updated_at</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n6">
+      <data key="d_kind">entity</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="226.0" width="170.0" x="765.5" y="641.0"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">booking_logs
+────────────────
+PK id
+   booking_id
+   event_type
+   actor
+   actor_role
+   payload
+   notes
+   created_at
+FK id</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <edge id="e0" source="n1" target="n2">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="crows_foot_one_mandatory" target="crows_foot_many_mandatory"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">dipesan pada</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e1" source="n0" target="n2">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="crows_foot_one_mandatory" target="crows_foot_many_mandatory"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">melakukan</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e2" source="n2" target="n3">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="crows_foot_one_mandatory" target="crows_foot_many_mandatory"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">memiliki</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e3" source="n2" target="n4">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="crows_foot_one_mandatory" target="crows_foot_many_mandatory"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">memiliki</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e4" source="n2" target="n6">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="crows_foot_one_mandatory" target="crows_foot_many_mandatory"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">memiliki</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+  </graph>
+</graphml>

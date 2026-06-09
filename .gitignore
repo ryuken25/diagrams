@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Trained model + datasets — NOT pushed (regenerate with `make train`)
+ai/artifacts/*
+!ai/artifacts/.gitkeep
+!ai/artifacts/metrics.json
+
+# Intermediate CLI outputs (the canonical deliverables live in result/)
+out/
+out_beauty/
+preview_*.png
+
+# Local clones used only as importer test input
+_beauty/

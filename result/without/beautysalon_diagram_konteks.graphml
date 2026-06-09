@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <key for="node" id="d_node" yfiles.type="nodegraphics"/>
+  <key for="edge" id="d_edge" yfiles.type="edgegraphics"/>
+  <key for="node" attr.name="kind" attr.type="string" id="d_kind"/>
+  <graph edgedefault="directed" id="Diagram Konteks (Beauty Salon)">
+    <node id="n0">
+      <data key="d_kind">process</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="160.0" width="394.0" x="474.9" y="702.0"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="bold" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">0
+Sistem Informasi Booking SW Beauty Salon</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n1">
+      <data key="d_kind">external</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="64.0" width="150.0" x="596.9" y="130.0"/>
+          <y:Fill color="#EEF2F7" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Pelanggan</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n2">
+      <data key="d_kind">external</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="64.0" width="150.0" x="1133.9" y="1060.0"/>
+          <y:Fill color="#EEF2F7" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Admin</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n3">
+      <data key="d_kind">external</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="64.0" width="150.0" x="60.0" y="1060.0"/>
+          <y:Fill color="#EEF2F7" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Pemilik</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n4">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="25.0" width="136.0" x="543.9" y="558.7"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Registrasi &amp; login</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n5">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="25.0" width="198.0" x="542.9" y="481.2"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Data booking &amp; pilihan slot</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n6">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="25.0" width="143.0" x="600.4" y="403.7"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Bukti pembayaran DP</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n7">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="25.0" width="150.0" x="626.9" y="326.2"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Info layanan &amp; promo</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n8">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="25.0" width="157.0" x="653.4" y="248.7"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Kode booking &amp; status</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n9">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="25.0" width="170.0" x="877.6" y="863.7"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Verifikasi booking &amp; DP</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n10">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="25.0" width="164.0" x="869.5" y="913.6"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Data walk-in &amp; layanan</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n11">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="25.0" width="191.0" x="930.5" y="991.2"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Pengaturan jam operasional</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n12">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="25.0" width="198.0" x="926.8" y="1061.6"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Daftar booking &amp; notifikasi</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n13">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="25.0" width="136.0" x="428.9" y="887.9"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Permintaan laporan</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n14">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="25.0" width="211.0" x="107.9" y="1016.9"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Laporan pendapatan &amp; analitik</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n15">
+      <data key="d_kind">title</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="40.0" width="680.0" x="331.9" y="60.0"/>
+          <y:Fill color="#FFFFFF" transparent="true"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="18" fontStyle="bold" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Diagram Konteks (Diagram 0) — SW Beauty Salon</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <edge id="e0" source="n1" target="n0">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Registrasi &amp; login</y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e1" source="n1" target="n0">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Data booking &amp; pilihan slot</y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e2" source="n1" target="n0">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Bukti pembayaran DP</y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e3" source="n0" target="n1">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Info layanan &amp; promo</y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e4" source="n0" target="n1">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Kode booking &amp; status</y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e5" source="n2" target="n0">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Verifikasi booking &amp; DP</y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e6" source="n2" target="n0">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Data walk-in &amp; layanan</y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e7" source="n2" target="n0">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Pengaturan jam operasional</y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e8" source="n0" target="n2">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Daftar booking &amp; notifikasi</y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e9" source="n3" target="n0">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Permintaan laporan</y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e10" source="n0" target="n3">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Laporan pendapatan &amp; analitik</y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+  </graph>
+</graphml>
