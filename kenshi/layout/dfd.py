@@ -146,8 +146,9 @@ def _route_ortho(diagram, procs, exts, stores, EXT_X, STORE_X):
     node_by = {n.id: n for n in diagram.nodes}
 
     pp = []
-    info: dict = {}          # eid -> {proc, periph, is_ext, side}
-    VS = 70.0                # vertical slack before a flow wraps to top/bottom
+    info: dict = {}          # eid -> {proc, periph, on_right, is_store, side}
+    VS = 24.0                # small slack: a store fans to top/bottom as soon as
+    #                          its process isn't roughly level with it
     for e in diagram.edges:
         a, b = node_by.get(e.source), node_by.get(e.target)
         if not a or not b:
@@ -155,47 +156,47 @@ def _route_ortho(diagram, procs, exts, stores, EXT_X, STORE_X):
         if a.kind == PROCESS and b.kind == PROCESS:
             pp.append(e)
             continue
-        if a.kind == EXTERNAL or b.kind == EXTERNAL:
-            periph, is_ext = (a, True) if a.kind == EXTERNAL else (b, True)
-        elif a.kind == DATASTORE or b.kind == DATASTORE:
-            periph, is_ext = (a, False) if a.kind == DATASTORE else (b, False)
+        if a.kind in (EXTERNAL, DATASTORE):
+            periph, proc = a, b
+        elif b.kind in (EXTERNAL, DATASTORE):
+            periph, proc = b, a
         else:
             continue
-        proc = b if periph is a else a
+        if proc.kind != PROCESS:
+            continue
+        on_right = periph.cx >= proc.cx          # which column the peripheral sits in
+        is_store = periph.kind == DATASTORE
         dy = proc.cy - periph.cy
-        # Externals are stacked in one left column, so a top/bottom channel would
-        # pierce the neighbouring external boxes -> externals stay facing-side
-        # only. Data stores (right column, short, well spaced) may fan to their
-        # top/bottom for a cleaner, hand-drawn look.
-        if is_ext:
-            side = "F"
-        elif dy < -(periph.h / 2 + VS):
-            side = "T"                       # process above -> enter store top
-        elif dy > (periph.h / 2 + VS):
-            side = "B"                       # process below -> enter store bottom
+        # Data stores (short, well-spaced) fan to top/bottom; externals (tall,
+        # may be stacked) stay facing-side so a vertical channel never pierces a
+        # neighbouring box.
+        if is_store and dy < -(periph.h / 2 + VS):
+            side = "T"
+        elif is_store and dy > (periph.h / 2 + VS):
+            side = "B"
         else:
-            side = "F"                       # facing side
-        info[e.id] = {"proc": proc, "periph": periph, "is_ext": is_ext,
-                      "edge": e, "side": side}
+            side = "F"
+        info[e.id] = {"proc": proc, "periph": periph, "on_right": on_right,
+                      "is_store": is_store, "edge": e, "side": side}
 
     # --- spread ports: process facing side, and each used peripheral face ---
     pgroups: dict = {}       # (proc.id, 'L'|'R') -> [eid]
     sgroups: dict = {}       # (periph.id, side)  -> [eid]
     for eid, d in info.items():
-        pgroups.setdefault((d["proc"].id, "L" if d["is_ext"] else "R"), []).append(eid)
+        pgroups.setdefault((d["proc"].id, "R" if d["on_right"] else "L"), []).append(eid)
         sgroups.setdefault((d["periph"].id, d["side"]), []).append(eid)
 
     port: dict = {}          # eid -> {'proc': (rx, ry), 'periph': (rx, ry)}
     for (pid, lr), eids in pgroups.items():
         eids.sort(key=lambda eid: info[eid]["periph"].cy)
-        rx = 0.0 if lr == "L" else 1.0
+        rx = 1.0 if lr == "R" else 0.0
         n = len(eids)
         for i, eid in enumerate(eids):
             port.setdefault(eid, {})["proc"] = (rx, (i + 1) / (n + 1))
     for (sid, side), eids in sgroups.items():
-        is_ext = info[eids[0]]["is_ext"]
+        on_right = info[eids[0]]["on_right"]
         if side == "F":
-            rx = 1.0 if is_ext else 0.0      # external right / store left
+            rx = 0.0 if on_right else 1.0    # right peripheral faces left, & vv
             eids.sort(key=lambda eid: info[eid]["proc"].cy)
             n = len(eids)
             for i, eid in enumerate(eids):
@@ -224,11 +225,8 @@ def _route_ortho(diagram, procs, exts, stores, EXT_X, STORE_X):
         e.style["exitX"], e.style["exitY"] = f"{sx:.3f}", f"{sy:.3f}"
         e.style["entryX"], e.style["entryY"] = f"{tx:.3f}", f"{ty:.3f}"
 
-    # facing edges: unique channel in the column corridor; top/bottom edges:
-    # channel sits at the peripheral port's own x (straight drop into the face)
-    ext_F = [eid for eid, d in info.items() if d["is_ext"] and d["side"] == "F"]
-    sto_F = [eid for eid, d in info.items() if not d["is_ext"] and d["side"] == "F"]
-
+    # facing edges: unique channel in their column corridor (left vs right);
+    # top/bottom edges: channel sits at the peripheral port's own x
     def lay_corridor(eids, lo, hi):
         eids.sort(key=lambda eid: (anchor(info[eid]["proc"], port[eid]["proc"])[1]
                                    + anchor(info[eid]["periph"], port[eid]["periph"])[1]) / 2)
@@ -236,14 +234,16 @@ def _route_ortho(diagram, procs, exts, stores, EXT_X, STORE_X):
         for i, eid in enumerate(eids):
             commit(info[eid]["edge"], lo + (hi - lo) * (i + 1) / (n + 1))
 
-    if ext_F:
-        ext_right = max(x.x + x.w for x in exts) if exts else EXT_X
-        proc_left = min(p.x for p in procs)
-        lay_corridor(ext_F, ext_right + 26.0, proc_left - 26.0)
-    if sto_F:
-        proc_right = max(p.x + p.w for p in procs)
-        store_left = min(s.x for s in stores) if stores else STORE_X
-        lay_corridor(sto_F, proc_right + 26.0, store_left - 26.0)
+    left_F = [eid for eid, d in info.items() if d["side"] == "F" and not d["on_right"]]
+    right_F = [eid for eid, d in info.items() if d["side"] == "F" and d["on_right"]]
+    if left_F:
+        lp = [info[eid]["periph"] for eid in left_F]
+        lay_corridor(left_F, max(p.x + p.w for p in lp) + 26.0,
+                     min(p.x for p in procs) - 26.0)
+    if right_F:
+        rp = [info[eid]["periph"] for eid in right_F]
+        lay_corridor(right_F, max(p.x + p.w for p in procs) + 26.0,
+                     min(p.x for p in rp) - 26.0)
     for eid, d in info.items():
         if d["side"] in ("T", "B"):
             commit(d["edge"], anchor(d["periph"], port[eid]["periph"])[0])
@@ -295,8 +295,24 @@ def layout_dfd_ortho(diagram, title=None):
                 ys.append(other.cy)
         return ys
 
-    # externals (left) & stores (right): align to the mean y of their processes
-    for col, cx in ((exts, EXT_X), (stores, STORE_X)):
+    # Split externals across BOTH side columns. With stores fanning to their
+    # top/bottom the right corridor runs nearly empty, so the heavier externals
+    # are load-balanced onto whichever side currently carries fewer facing flows
+    # — this relieves the single congested "comb" on the left.
+    def edge_count(n):
+        return sum(1 for e in diagram.edges if n.id in (e.source, e.target))
+
+    left_ext, right_ext = [], []
+    ll, rl = 0, len(stores)            # seed right with the store facing baseline
+    for ex in sorted(exts, key=lambda x: -edge_count(x)):
+        if ll <= rl:
+            left_ext.append(ex)
+            ll += edge_count(ex)
+        else:
+            right_ext.append(ex)
+            rl += edge_count(ex)
+
+    for col, cx in ((left_ext, EXT_X), (right_ext + stores, STORE_X)):
         for n in col:
             ys = connected_procs(n)
             wy = sum(ys) / len(ys) if ys else 0.0
@@ -310,7 +326,9 @@ def layout_dfd_ortho(diagram, title=None):
     # explicit orthogonal routing: per-edge ports + unique vertical channels
     _route_ortho(diagram, procs, exts, stores, EXT_X, STORE_X)
 
-    # one floating data_/info_ label per edge, near the process end, de-collided
+    # one INLINE data_/info_ label per edge — sat on the edge's longest
+    # horizontal run (its opaque box hides the line) so the text reads along the
+    # flow like a hand-drawn DFD, then lightly de-collided to break ties.
     labels: list[Node] = []
     li = 0
     for e in diagram.edges:
@@ -319,20 +337,27 @@ def layout_dfd_ortho(diagram, title=None):
         a, b = node_by.get(e.source), node_by.get(e.target)
         if not a or not b:
             continue
-        proc = a if a.kind == PROCESS else b
-        other = b if proc is a else a
-        if e.waypoints:
-            # sit the label on the edge's own vertical channel (its opaque box
-            # hides the line behind it); de_collide spreads parallels apart
-            (chx, y0), (_chx2, y1) = e.waypoints[0], e.waypoints[1]
-            lx, ly = chx, (y0 + y1) / 2
+        if "exitX" in e.style and "entryX" in e.style:
+            pts = ([(a.x + float(e.style["exitX"]) * a.w,
+                     a.y + float(e.style["exitY"]) * a.h)]
+                   + list(e.waypoints)
+                   + [(b.x + float(e.style["entryX"]) * b.w,
+                       b.y + float(e.style["entryY"]) * b.h)])
         else:
-            lx = proc.cx + (other.cx - proc.cx) * 0.40
-            ly = proc.cy + (other.cy - proc.cy) * 0.40
+            pts = [(a.cx, a.cy), (b.cx, b.cy)]
+        lx = ly = None
+        best = -1.0
+        for (p, q) in zip(pts, pts[1:]):            # longest horizontal segment
+            if abs(p[1] - q[1]) < 1.5 and abs(q[0] - p[0]) > best:
+                best = abs(q[0] - p[0])
+                lx, ly = (p[0] + q[0]) / 2, p[1]
+        if lx is None:                               # purely vertical (pp) edge
+            lx = (pts[0][0] + pts[-1][0]) / 2
+            ly = (pts[0][1] + pts[-1][1]) / 2
         labels.append(make_label(f"_fl{li}", e.label, lx, ly, font=10))
         li += 1
     de_collide_labels(labels, [n for n in diagram.nodes if n.kind != "label"],
-                      passes=260, step=5.0, gap=7.0)
+                      passes=160, step=5.0, gap=6.0)
     diagram.nodes.extend(labels)
 
     t = Node(id="_title", kind="title",

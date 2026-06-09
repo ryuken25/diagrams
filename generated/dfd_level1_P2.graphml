@@ -62,7 +62,7 @@ Simpan Pemesanan
       <data key="d_kind">external</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="80.0" width="158.0" x="60.0" y="609.0"/>
+          <y:Geometry height="80.0" width="158.0" x="1620.0" y="483.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Admin</y:NodeLabel>
@@ -110,7 +110,7 @@ Simpan Pemesanan
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="100.0" x="271.4" y="333.8"/>
+          <y:Geometry height="24.0" width="100.0" x="532.2" y="180.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_pemesanan</y:NodeLabel>
@@ -122,7 +122,7 @@ Simpan Pemesanan
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="100.0" x="348.9" y="370.2"/>
+          <y:Geometry height="24.0" width="100.0" x="586.4" y="237.4"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_pelanggan</y:NodeLabel>
@@ -134,7 +134,7 @@ Simpan Pemesanan
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="100.0" x="581.1" y="651.8"/>
+          <y:Geometry height="24.0" width="100.0" x="319.6" y="511.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_pemesanan</y:NodeLabel>
@@ -146,7 +146,7 @@ Simpan Pemesanan
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="100.0" x="658.6" y="688.2"/>
+          <y:Geometry height="24.0" width="100.0" x="421.8" y="542.1"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_pelanggan</y:NodeLabel>
@@ -158,7 +158,7 @@ Simpan Pemesanan
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="138.0" x="407.3" y="553.2"/>
+          <y:Geometry height="24.0" width="138.0" x="1364.8" y="502.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_aturan_validasi</y:NodeLabel>
@@ -170,7 +170,7 @@ Simpan Pemesanan
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="515.7" y="594.8"/>
+          <y:Geometry height="24.0" width="76.0" x="1420.0" y="536.4"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_admin</y:NodeLabel>
@@ -182,7 +182,7 @@ Simpan Pemesanan
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1621.4" y="256.5"/>
+          <y:Geometry height="24.0" width="76.0" x="1307.0" y="180.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_paket</y:NodeLabel>
@@ -194,7 +194,7 @@ Simpan Pemesanan
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1700.6" y="288.5"/>
+          <y:Geometry height="24.0" width="76.0" x="1342.0" y="237.4"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_paket</y:NodeLabel>
@@ -206,7 +206,7 @@ Simpan Pemesanan
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1621.4" y="431.5"/>
+          <y:Geometry height="24.0" width="76.0" x="1305.4" y="451.5"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_paket</y:NodeLabel>
@@ -218,7 +218,7 @@ Simpan Pemesanan
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1700.6" y="463.5"/>
+          <y:Geometry height="24.0" width="76.0" x="1278.6" y="485.1"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_paket</y:NodeLabel>
@@ -230,7 +230,7 @@ Simpan Pemesanan
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="100.0" x="1102.8" y="782.9"/>
+          <y:Geometry height="24.0" width="100.0" x="1143.8" y="762.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_pemesanan</y:NodeLabel>
@@ -242,7 +242,7 @@ Simpan Pemesanan
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="100.0" x="1210.8" y="809.1"/>
+          <y:Geometry height="24.0" width="100.0" x="1195.4" y="796.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_pemesanan</y:NodeLabel>
@@ -254,7 +254,7 @@ Simpan Pemesanan
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="144.0" x="1275.0" y="861.0"/>
+          <y:Geometry height="24.0" width="144.0" x="1273.0" y="830.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_detail_pemesanan</y:NodeLabel>
@@ -266,7 +266,7 @@ Simpan Pemesanan
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="144.0" x="1407.4" y="893.0"/>
+          <y:Geometry height="24.0" width="144.0" x="1308.0" y="864.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_detail_pemesanan</y:NodeLabel>
@@ -278,7 +278,7 @@ Simpan Pemesanan
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="100.0" x="869.0" y="329.8"/>
+          <y:Geometry height="24.0" width="100.0" x="869.0" y="360.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_pemesanan</y:NodeLabel>
@@ -290,7 +290,7 @@ Simpan Pemesanan
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="138.0" x="850.0" y="631.8"/>
+          <y:Geometry height="24.0" width="138.0" x="850.0" y="662.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_pemesanan_valid</y:NodeLabel>
