@@ -130,99 +130,117 @@ def _spread_column(nodes, min_gap):
 def _route_ortho(diagram, procs, exts, stores, EXT_X, STORE_X):
     """Explicit orthogonal router for the single-node DFD.
 
-    Each edge gets (1) distinct exit/entry PORTS on the perimeter of its two
-    nodes (so parallel flows don't collapse onto one anchor), and (2) a UNIQUE
-    vertical CHANNEL in the corridor between the process column and the
-    external/store column — written as two waypoints ``[(ch_x, y_exit),
-    (ch_x, y_entry)]``. The exporter reads ``exitX/exitY/entryX/entryY`` from
-    ``edge.style`` and emits ``waypoints`` as an ``<Array as="points">``.
-
-    The path of every routed edge is therefore: leave the source perimeter on a
-    spread-out Y, run horizontally to its own channel, drop/climb vertically in
-    that channel, then run horizontally into the target perimeter — two bends,
-    no shared channels ("lika-liku sedikit, garis tidak menyatu").
+    Every process<->peripheral (external/data-store) edge picks the *most
+    efficient ENTRY SIDE* on the peripheral node instead of cramming the whole
+    bus onto one face:
+        * peripheral roughly level with the process -> facing side (external
+          RIGHT / store LEFT), routed through a unique vertical channel in the
+          corridor between the two columns;
+        * process well ABOVE the peripheral -> the peripheral's TOP edge;
+        * process well BELOW -> the peripheral's BOTTOM edge.
+    Top/bottom entries drop straight down/up a channel that sits inside the
+    peripheral's own x-span, so flows fan across three faces (like a hand-drawn
+    DFD) rather than stacking into one comb. Ports are written as
+    exitX/exitY/entryX/entryY and the path as two waypoints.
     """
     node_by = {n.id: n for n in diagram.nodes}
 
-    left, right, pp = [], [], []
+    pp = []
+    info: dict = {}          # eid -> {proc, periph, is_ext, side}
+    VS = 70.0                # vertical slack before a flow wraps to top/bottom
     for e in diagram.edges:
         a, b = node_by.get(e.source), node_by.get(e.target)
         if not a or not b:
             continue
         if a.kind == PROCESS and b.kind == PROCESS:
             pp.append(e)
-        elif a.kind == EXTERNAL or b.kind == EXTERNAL:
-            left.append(e)
+            continue
+        if a.kind == EXTERNAL or b.kind == EXTERNAL:
+            periph, is_ext = (a, True) if a.kind == EXTERNAL else (b, True)
         elif a.kind == DATASTORE or b.kind == DATASTORE:
-            right.append(e)
+            periph, is_ext = (a, False) if a.kind == DATASTORE else (b, False)
+        else:
+            continue
+        proc = b if periph is a else a
+        dy = proc.cy - periph.cy
+        if dy < -(periph.h / 2 + VS):
+            side = "T"                       # process above -> enter top
+        elif dy > (periph.h / 2 + VS):
+            side = "B"                       # process below -> enter bottom
+        else:
+            side = "F"                       # facing side
+        info[e.id] = {"proc": proc, "periph": periph, "is_ext": is_ext,
+                      "edge": e, "side": side}
 
-    # --- spread Y anchors along each used side of each node ---------------
-    # groups: (node_id, side) -> list of [edge, end('source'|'target'), other_cy]
-    # side codes: PL=process-left, PR=process-right, ER=external-right, SL=store-left
-    groups: dict = {}
+    # --- spread ports: process facing side, and each used peripheral face ---
+    pgroups: dict = {}       # (proc.id, 'L'|'R') -> [eid]
+    sgroups: dict = {}       # (periph.id, side)  -> [eid]
+    for eid, d in info.items():
+        pgroups.setdefault((d["proc"].id, "L" if d["is_ext"] else "R"), []).append(eid)
+        sgroups.setdefault((d["periph"].id, d["side"]), []).append(eid)
 
-    def reg(node, side, e, end, other):
-        groups.setdefault((node.id, side), []).append([e, end, other.cy])
+    port: dict = {}          # eid -> {'proc': (rx, ry), 'periph': (rx, ry)}
+    for (pid, lr), eids in pgroups.items():
+        eids.sort(key=lambda eid: info[eid]["periph"].cy)
+        rx = 0.0 if lr == "L" else 1.0
+        n = len(eids)
+        for i, eid in enumerate(eids):
+            port.setdefault(eid, {})["proc"] = (rx, (i + 1) / (n + 1))
+    for (sid, side), eids in sgroups.items():
+        is_ext = info[eids[0]]["is_ext"]
+        if side == "F":
+            rx = 1.0 if is_ext else 0.0      # external right / store left
+            eids.sort(key=lambda eid: info[eid]["proc"].cy)
+            n = len(eids)
+            for i, eid in enumerate(eids):
+                port.setdefault(eid, {})["periph"] = (rx, (i + 1) / (n + 1))
+        else:
+            ry = 0.0 if side == "T" else 1.0
+            eids.sort(key=lambda eid: info[eid]["proc"].cx)
+            n = len(eids)
+            for i, eid in enumerate(eids):
+                port.setdefault(eid, {})["periph"] = ((i + 1) / (n + 1), ry)
 
-    for e in left:
-        a, b = node_by[e.source], node_by[e.target]
-        proc = a if a.kind == PROCESS else b
-        ext = b if proc is a else a
-        reg(proc, "PL", e, "source" if a is proc else "target", ext)
-        reg(ext, "ER", e, "source" if a is ext else "target", proc)
-    for e in right:
-        a, b = node_by[e.source], node_by[e.target]
-        proc = a if a.kind == PROCESS else b
-        st = b if proc is a else a
-        reg(proc, "PR", e, "source" if a is proc else "target", st)
-        reg(st, "SL", e, "source" if a is st else "target", proc)
+    def anchor(node, frac):
+        return node.x + frac[0] * node.w, node.y + frac[1] * node.h
 
-    SIDE_X = {"PL": 0.0, "ER": 1.0, "PR": 1.0, "SL": 0.0}
-    port: dict = {}   # edge_id -> {'source': (rx, ry), 'target': (rx, ry)}
-    for (nid, side), items in groups.items():
-        items.sort(key=lambda it: it[2])     # order by the other end's y
-        n = len(items)
-        rx = SIDE_X[side]
-        for i, (e, end, _oy) in enumerate(items):
-            ry = (i + 1) / (n + 1)            # even spread, never touching a corner
-            port.setdefault(e.id, {})[end] = (rx, ry)
-
-    def anchor(e, end):
-        rx, ry = port[e.id][end]
-        node = node_by[e.source if end == "source" else e.target]
-        return node.x + rx * node.w, node.y + ry * node.h
-
-    def write_ports(e):
-        sx, sy = port[e.id]["source"]
-        tx, ty = port[e.id]["target"]
+    def commit(e, chx):
+        d = info[e.id]
+        pa = anchor(d["proc"], port[e.id]["proc"])
+        ca = anchor(d["periph"], port[e.id]["periph"])
+        a = node_by[e.source]
+        if a.kind == PROCESS:                       # process -> peripheral
+            (sx, sy), (tx, ty) = port[e.id]["proc"], port[e.id]["periph"]
+            e.waypoints = [(chx, pa[1]), (chx, ca[1])]
+        else:                                       # peripheral -> process
+            (sx, sy), (tx, ty) = port[e.id]["periph"], port[e.id]["proc"]
+            e.waypoints = [(chx, ca[1]), (chx, pa[1])]
         e.style["exitX"], e.style["exitY"] = f"{sx:.3f}", f"{sy:.3f}"
         e.style["entryX"], e.style["entryY"] = f"{tx:.3f}", f"{ty:.3f}"
 
-    def proc_anchor_y(e):
-        a = node_by[e.source]
-        end = "source" if a.kind == PROCESS else "target"
-        return anchor(e, end)[1]
+    # facing edges: unique channel in the column corridor; top/bottom edges:
+    # channel sits at the peripheral port's own x (straight drop into the face)
+    ext_F = [eid for eid, d in info.items() if d["is_ext"] and d["side"] == "F"]
+    sto_F = [eid for eid, d in info.items() if not d["is_ext"] and d["side"] == "F"]
 
-    # --- assign a unique vertical channel per edge in each corridor -------
-    def lay_channels(edges, lo, hi):
-        # order channels by the edge midpoint y so adjacent rows use adjacent
-        # channels -> fewer crossings; every edge still gets its own x.
-        edges.sort(key=lambda e: (anchor(e, "source")[1] + anchor(e, "target")[1]) / 2)
-        n = len(edges)
-        for i, e in enumerate(edges):
-            chx = lo + (hi - lo) * (i + 1) / (n + 1)
-            s, t = anchor(e, "source"), anchor(e, "target")
-            e.waypoints = [(chx, s[1]), (chx, t[1])]
-            write_ports(e)
+    def lay_corridor(eids, lo, hi):
+        eids.sort(key=lambda eid: (anchor(info[eid]["proc"], port[eid]["proc"])[1]
+                                   + anchor(info[eid]["periph"], port[eid]["periph"])[1]) / 2)
+        n = len(eids)
+        for i, eid in enumerate(eids):
+            commit(info[eid]["edge"], lo + (hi - lo) * (i + 1) / (n + 1))
 
-    if left:
+    if ext_F:
         ext_right = max(x.x + x.w for x in exts) if exts else EXT_X
         proc_left = min(p.x for p in procs)
-        lay_channels(left, ext_right + 26.0, proc_left - 26.0)
-    if right:
+        lay_corridor(ext_F, ext_right + 26.0, proc_left - 26.0)
+    if sto_F:
         proc_right = max(p.x + p.w for p in procs)
         store_left = min(s.x for s in stores) if stores else STORE_X
-        lay_channels(right, proc_right + 26.0, store_left - 26.0)
+        lay_corridor(sto_F, proc_right + 26.0, store_left - 26.0)
+    for eid, d in info.items():
+        if d["side"] in ("T", "B"):
+            commit(d["edge"], anchor(d["periph"], port[eid]["periph"])[0])
 
     # process -> process: straight down the centre column
     for e in pp:
