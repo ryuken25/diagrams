@@ -302,24 +302,12 @@ def layout_dfd_ortho(diagram, title=None):
                 ys.append(other.cy)
         return ys
 
-    # Split externals across BOTH side columns. With stores fanning to their
-    # top/bottom the right corridor runs nearly empty, so the heavier externals
-    # are load-balanced onto whichever side currently carries fewer facing flows
-    # — this relieves the single congested "comb" on the left.
-    def edge_count(n):
-        return sum(1 for e in diagram.edges if n.id in (e.source, e.target))
-
-    left_ext, right_ext = [], []
-    ll, rl = 0, len(stores)            # seed right with the store facing baseline
-    for ex in sorted(exts, key=lambda x: -edge_count(x)):
-        if ll <= rl:
-            left_ext.append(ex)
-            ll += edge_count(ex)
-        else:
-            right_ext.append(ex)
-            rl += edge_count(ex)
-
-    for col, cx in ((left_ext, EXT_X), (right_ext + stores, STORE_X)):
+    # Classic DFD sides: ALL externals left, ALL data stores right. Keeping them
+    # on OPPOSITE sides means external-flows (left corridor) and store-flows
+    # (right corridor) never cross — no tangled "knot". (An earlier left/right
+    # external split balanced the columns but put an external inside the store
+    # column, so its flows crossed every store flow; reverted.)
+    for col, cx in ((exts, EXT_X), (stores, STORE_X)):
         for n in col:
             ys = connected_procs(n)
             wy = sum(ys) / len(ys) if ys else 0.0

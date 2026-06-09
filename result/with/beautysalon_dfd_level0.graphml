@@ -101,7 +101,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">external</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="80.0" width="158.0" x="1620.0" y="1011.5"/>
+          <y:Geometry height="80.0" width="158.0" x="60.0" y="1011.5"/>
           <y:Fill color="#EEF2F7" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
           <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Admin</y:NodeLabel>
@@ -149,7 +149,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">datastore</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="48.0" width="210.0" x="1594.0" y="1137.5"/>
+          <y:Geometry height="48.0" width="210.0" x="1594.0" y="1103.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
           <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">D3  bookings</y:NodeLabel>
@@ -209,7 +209,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="144.0" x="480.6" y="180.7"/>
+          <y:Geometry height="24.0" width="144.0" x="470.3" y="180.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_registrasi_login</y:NodeLabel>
@@ -221,7 +221,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="69.0" x="542.8" y="237.4"/>
+          <y:Geometry height="24.0" width="69.0" x="522.0" y="237.4"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_sesi</y:NodeLabel>
@@ -233,7 +233,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="125.0" x="539.4" y="482.6"/>
+          <y:Geometry height="24.0" width="125.0" x="508.3" y="460.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_layanan_promo</y:NodeLabel>
@@ -245,7 +245,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="100.0" x="576.5" y="539.3"/>
+          <y:Geometry height="24.0" width="100.0" x="535.1" y="494.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_pelanggan</y:NodeLabel>
@@ -257,7 +257,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="169.0" x="566.7" y="784.7"/>
+          <y:Geometry height="24.0" width="169.0" x="514.8" y="762.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_pilihan_slot_booking</y:NodeLabel>
@@ -269,7 +269,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="119.0" x="258.2" y="653.2"/>
+          <y:Geometry height="24.0" width="119.0" x="554.1" y="796.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_kode_booking</y:NodeLabel>
@@ -281,7 +281,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="100.0" x="353.4" y="684.4"/>
+          <y:Geometry height="24.0" width="100.0" x="608.9" y="1063.8"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_upload_dp</y:NodeLabel>
@@ -293,7 +293,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="100.0" x="439.3" y="715.1"/>
+          <y:Geometry height="24.0" width="100.0" x="323.6" y="693.1"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_pelanggan</y:NodeLabel>
@@ -305,7 +305,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="125.0" x="1278.2" y="991.1"/>
+          <y:Geometry height="24.0" width="125.0" x="565.3" y="528.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_layanan_promo</y:NodeLabel>
@@ -317,7 +317,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1335.9" y="1024.2"/>
+          <y:Geometry height="24.0" width="76.0" x="604.1" y="562.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_admin</y:NodeLabel>
@@ -329,7 +329,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="125.0" x="1420.6" y="1019.3"/>
+          <y:Geometry height="24.0" width="125.0" x="278.7" y="997.1"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_tolak_walk_in</y:NodeLabel>
@@ -341,7 +341,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1442.1" y="1052.3"/>
+          <y:Geometry height="24.0" width="76.0" x="335.3" y="1030.2"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_admin</y:NodeLabel>
@@ -353,7 +353,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="57.0" x="1140.5" y="1043.7"/>
+          <y:Geometry height="24.0" width="57.0" x="419.7" y="1030.1"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_dp</y:NodeLabel>
@@ -365,7 +365,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1150.1" y="1074.4"/>
+          <y:Geometry height="24.0" width="76.0" x="370.0" y="1062.2"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_admin</y:NodeLabel>
@@ -377,7 +377,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="193.0" x="1139.8" y="1668.0"/>
+          <y:Geometry height="24.0" width="193.0" x="324.4" y="1097.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_jam_operasional_template</y:NodeLabel>
@@ -389,7 +389,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1213.5" y="1702.0"/>
+          <y:Geometry height="24.0" width="76.0" x="523.5" y="1073.5"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_admin</y:NodeLabel>
@@ -401,7 +401,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="88.0" x="407.0" y="1401.8"/>
+          <y:Geometry height="24.0" width="88.0" x="413.4" y="1401.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_laporan</y:NodeLabel>
@@ -413,7 +413,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="212.0" x="373.1" y="1432.2"/>
+          <y:Geometry height="24.0" width="212.0" x="383.6" y="1432.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_laporan_pendapatan_analitik</y:NodeLabel>
@@ -425,7 +425,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1293.3" y="193.7"/>
+          <y:Geometry height="24.0" width="76.0" x="1300.6" y="193.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_users</y:NodeLabel>
@@ -437,7 +437,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1322.2" y="224.3"/>
+          <y:Geometry height="24.0" width="76.0" x="1355.4" y="224.3"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_users</y:NodeLabel>
@@ -449,7 +449,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="88.0" x="1284.9" y="460.0"/>
+          <y:Geometry height="24.0" width="88.0" x="1284.9" y="482.6"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_layanan</y:NodeLabel>
@@ -461,7 +461,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="88.0" x="1320.6" y="494.0"/>
+          <y:Geometry height="24.0" width="88.0" x="1320.6" y="539.3"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_layanan</y:NodeLabel>
@@ -473,7 +473,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="88.0" x="1264.2" y="734.5"/>
+          <y:Geometry height="24.0" width="88.0" x="1260.4" y="734.5"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_layanan</y:NodeLabel>
@@ -485,7 +485,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="88.0" x="1339.3" y="766.2"/>
+          <y:Geometry height="24.0" width="88.0" x="1329.1" y="766.2"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_layanan</y:NodeLabel>
@@ -497,7 +497,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="94.0" x="1257.1" y="861.0"/>
+          <y:Geometry height="24.0" width="94.0" x="1224.4" y="857.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_bookings</y:NodeLabel>
@@ -509,7 +509,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="94.0" x="1338.3" y="891.4"/>
+          <y:Geometry height="24.0" width="94.0" x="1340.9" y="888.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_bookings</y:NodeLabel>
@@ -521,7 +521,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="94.0" x="1162.0" y="1106.9"/>
+          <y:Geometry height="24.0" width="94.0" x="1135.3" y="1064.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_bookings</y:NodeLabel>
@@ -533,7 +533,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="94.0" x="1175.4" y="1137.3"/>
+          <y:Geometry height="24.0" width="94.0" x="1164.0" y="1098.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_bookings</y:NodeLabel>
@@ -569,7 +569,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="125.0" x="1359.9" y="796.6"/>
+          <y:Geometry height="24.0" width="125.0" x="1345.3" y="797.5"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_booking_slots</y:NodeLabel>
@@ -581,7 +581,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="125.0" x="1403.9" y="828.2"/>
+          <y:Geometry height="24.0" width="125.0" x="1456.2" y="828.1"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_booking_slots</y:NodeLabel>
@@ -593,7 +593,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="119.0" x="1228.7" y="797.8"/>
+          <y:Geometry height="24.0" width="119.0" x="1218.6" y="818.4"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_booking_logs</y:NodeLabel>
@@ -605,7 +605,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="119.0" x="1276.1" y="828.3"/>
+          <y:Geometry height="24.0" width="119.0" x="1326.3" y="851.4"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_booking_logs</y:NodeLabel>
@@ -617,7 +617,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="100.0" x="1277.7" y="1147.8"/>
+          <y:Geometry height="24.0" width="100.0" x="1278.9" y="1132.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_transaksi</y:NodeLabel>
@@ -629,7 +629,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="100.0" x="1320.8" y="1180.0"/>
+          <y:Geometry height="24.0" width="100.0" x="1314.6" y="1166.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_transaksi</y:NodeLabel>
@@ -665,7 +665,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="94.0" x="1219.6" y="1736.0"/>
+          <y:Geometry height="24.0" width="94.0" x="1192.7" y="1690.6"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_settings</y:NodeLabel>
@@ -677,7 +677,7 @@ Pengaturan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="94.0" x="1234.8" y="1770.0"/>
+          <y:Geometry height="24.0" width="94.0" x="1221.3" y="1747.3"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_settings</y:NodeLabel>
