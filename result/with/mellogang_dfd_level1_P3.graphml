@@ -145,7 +145,7 @@ Paket &amp; Portofolio</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="144.0" x="348.5" y="796.8"/>
+          <y:Geometry height="24.0" width="144.0" x="342.7" y="798.3"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_paket_portofolio</y:NodeLabel>
@@ -157,7 +157,7 @@ Paket &amp; Portofolio</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="100.0" x="417.4" y="829.2"/>
+          <y:Geometry height="24.0" width="100.0" x="423.2" y="827.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_pelanggan</y:NodeLabel>

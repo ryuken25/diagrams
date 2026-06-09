@@ -15,11 +15,14 @@ def make_label(nid: str, text: str, cx: float, cy: float, font: int = 11) -> Nod
 
 
 def de_collide_labels(labels: list[Node], obstacles: list[Node],
-                      passes: int = 120, step: float = 5.0, gap: float = 7.0):
+                      passes: int = 120, step: float = 5.0, gap: float = 7.0,
+                      vbias: float = 1.0):
     """Push label nodes apart from each other and out of obstacle shapes.
 
     Labels move; obstacles are fixed. Keeps flow/cardinality text from ever
     stacking on top of another label or a shape (the #1 cleanliness rule).
+    ``vbias`` < 1 damps VERTICAL motion between labels so they slide *along* their
+    flow line (stay inline) instead of being shoved off it — used for DFD flows.
     """
     obs_boxes = [(o.x, o.y, o.w, o.h) for o in obstacles]
     for _ in range(passes):
@@ -33,9 +36,9 @@ def de_collide_labels(labels: list[Node], obstacles: list[Node],
                 if not _aabb_overlap(ba, bb, gap):
                     continue
                 dx = a.cx - b.cx
-                dy = a.cy - b.cy
+                dy = (a.cy - b.cy) * vbias
                 if abs(dx) < 1e-6 and abs(dy) < 1e-6:
-                    dy = 1.0
+                    dx = 1.0
                 length = math.hypot(dx, dy) or 1.0
                 a.x += dx / length * step / 2; a.y += dy / length * step / 2
                 b.x -= dx / length * step / 2; b.y -= dy / length * step / 2

@@ -352,8 +352,10 @@ def layout_dfd_ortho(diagram, title=None):
         labels.append(make_label(f"_fl{li}", e.label, lx, ly, font=10))
         e.label = ""        # the floating node IS the label; avoid draw.io doubling it
         li += 1
+    # vbias<1: labels slide ALONG their flow line (stay inline) rather than being
+    # pushed vertically off it — the inline look of a hand-drawn DFD.
     de_collide_labels(labels, [n for n in diagram.nodes if n.kind != "label"],
-                      passes=160, step=5.0, gap=6.0)
+                      passes=200, step=5.0, gap=5.0, vbias=0.22)
     diagram.nodes.extend(labels)
 
     t = Node(id="_title", kind="title",
