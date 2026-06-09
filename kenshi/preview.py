@@ -10,7 +10,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.patches import Ellipse, Rectangle, FancyArrow, Polygon
 
-from .geometry import clip_edge
+from .geometry import clip_edge, boundary_point, pull_back
 from .model import (PROCESS, EXTERNAL, DATASTORE, ENTITY, ATTRIBUTE,
                     RELATIONSHIP)
 
@@ -42,8 +42,20 @@ def render(diagram, path, scale=0.01, mono=False, transparent=False):
         a, b = node.get(e.source), node.get(e.target)
         if not a or not b:
             continue
-        (sx, sy), (tx, ty) = clip_edge(a, b)
         astyle = "-|>" if e.end_arrow != "none" else "-"
+        if e.waypoints:
+            # follow the explicit channel waypoints; clip the two ends to the
+            # node perimeter facing the first/last waypoint
+            wps = list(e.waypoints)
+            start = boundary_point(a, wps[0])
+            end = pull_back(boundary_point(b, wps[-1]), wps[-1])
+            xs = [start[0]] + [p[0] for p in wps] + [end[0]]
+            ys = [start[1]] + [p[1] for p in wps] + [end[1]]
+            ax.plot(xs[:-1], ys[:-1], color=stroke, lw=1.0)
+            ax.annotate("", xy=(end[0], end[1]), xytext=(xs[-2], ys[-2]),
+                        arrowprops=dict(arrowstyle=astyle, color=stroke, lw=1.0))
+            continue
+        (sx, sy), (tx, ty) = clip_edge(a, b)
         if e.routing == "orthogonal":
             midx = (sx + tx) / 2
             ax.plot([sx, midx, midx], [sy, sy, ty], color=stroke, lw=1.0)

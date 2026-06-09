@@ -127,6 +127,110 @@ def _spread_column(nodes, min_gap):
             cur.y = need
 
 
+def _route_ortho(diagram, procs, exts, stores, EXT_X, STORE_X):
+    """Explicit orthogonal router for the single-node DFD.
+
+    Each edge gets (1) distinct exit/entry PORTS on the perimeter of its two
+    nodes (so parallel flows don't collapse onto one anchor), and (2) a UNIQUE
+    vertical CHANNEL in the corridor between the process column and the
+    external/store column — written as two waypoints ``[(ch_x, y_exit),
+    (ch_x, y_entry)]``. The exporter reads ``exitX/exitY/entryX/entryY`` from
+    ``edge.style`` and emits ``waypoints`` as an ``<Array as="points">``.
+
+    The path of every routed edge is therefore: leave the source perimeter on a
+    spread-out Y, run horizontally to its own channel, drop/climb vertically in
+    that channel, then run horizontally into the target perimeter — two bends,
+    no shared channels ("lika-liku sedikit, garis tidak menyatu").
+    """
+    node_by = {n.id: n for n in diagram.nodes}
+
+    left, right, pp = [], [], []
+    for e in diagram.edges:
+        a, b = node_by.get(e.source), node_by.get(e.target)
+        if not a or not b:
+            continue
+        if a.kind == PROCESS and b.kind == PROCESS:
+            pp.append(e)
+        elif a.kind == EXTERNAL or b.kind == EXTERNAL:
+            left.append(e)
+        elif a.kind == DATASTORE or b.kind == DATASTORE:
+            right.append(e)
+
+    # --- spread Y anchors along each used side of each node ---------------
+    # groups: (node_id, side) -> list of [edge, end('source'|'target'), other_cy]
+    # side codes: PL=process-left, PR=process-right, ER=external-right, SL=store-left
+    groups: dict = {}
+
+    def reg(node, side, e, end, other):
+        groups.setdefault((node.id, side), []).append([e, end, other.cy])
+
+    for e in left:
+        a, b = node_by[e.source], node_by[e.target]
+        proc = a if a.kind == PROCESS else b
+        ext = b if proc is a else a
+        reg(proc, "PL", e, "source" if a is proc else "target", ext)
+        reg(ext, "ER", e, "source" if a is ext else "target", proc)
+    for e in right:
+        a, b = node_by[e.source], node_by[e.target]
+        proc = a if a.kind == PROCESS else b
+        st = b if proc is a else a
+        reg(proc, "PR", e, "source" if a is proc else "target", st)
+        reg(st, "SL", e, "source" if a is st else "target", proc)
+
+    SIDE_X = {"PL": 0.0, "ER": 1.0, "PR": 1.0, "SL": 0.0}
+    port: dict = {}   # edge_id -> {'source': (rx, ry), 'target': (rx, ry)}
+    for (nid, side), items in groups.items():
+        items.sort(key=lambda it: it[2])     # order by the other end's y
+        n = len(items)
+        rx = SIDE_X[side]
+        for i, (e, end, _oy) in enumerate(items):
+            ry = (i + 1) / (n + 1)            # even spread, never touching a corner
+            port.setdefault(e.id, {})[end] = (rx, ry)
+
+    def anchor(e, end):
+        rx, ry = port[e.id][end]
+        node = node_by[e.source if end == "source" else e.target]
+        return node.x + rx * node.w, node.y + ry * node.h
+
+    def write_ports(e):
+        sx, sy = port[e.id]["source"]
+        tx, ty = port[e.id]["target"]
+        e.style["exitX"], e.style["exitY"] = f"{sx:.3f}", f"{sy:.3f}"
+        e.style["entryX"], e.style["entryY"] = f"{tx:.3f}", f"{ty:.3f}"
+
+    def proc_anchor_y(e):
+        a = node_by[e.source]
+        end = "source" if a.kind == PROCESS else "target"
+        return anchor(e, end)[1]
+
+    # --- assign a unique vertical channel per edge in each corridor -------
+    def lay_channels(edges, lo, hi):
+        # order channels by the edge midpoint y so adjacent rows use adjacent
+        # channels -> fewer crossings; every edge still gets its own x.
+        edges.sort(key=lambda e: (anchor(e, "source")[1] + anchor(e, "target")[1]) / 2)
+        n = len(edges)
+        for i, e in enumerate(edges):
+            chx = lo + (hi - lo) * (i + 1) / (n + 1)
+            s, t = anchor(e, "source"), anchor(e, "target")
+            e.waypoints = [(chx, s[1]), (chx, t[1])]
+            write_ports(e)
+
+    if left:
+        ext_right = max(x.x + x.w for x in exts) if exts else EXT_X
+        proc_left = min(p.x for p in procs)
+        lay_channels(left, ext_right + 26.0, proc_left - 26.0)
+    if right:
+        proc_right = max(p.x + p.w for p in procs)
+        store_left = min(s.x for s in stores) if stores else STORE_X
+        lay_channels(right, proc_right + 26.0, store_left - 26.0)
+
+    # process -> process: straight down the centre column
+    for e in pp:
+        e.style["exitX"], e.style["exitY"] = "0.5", "1"
+        e.style["entryX"], e.style["entryY"] = "0.5", "0"
+        e.waypoints = []
+
+
 def layout_dfd_ortho(diagram, title=None):
     """Chelisnet-style: single externals (left), processes (centre column),
     single data stores (right); orthogonal edges. Overlap-free by column."""
@@ -179,6 +283,9 @@ def layout_dfd_ortho(diagram, title=None):
         for n in col:
             n.x = cx - n.w / 2
 
+    # explicit orthogonal routing: per-edge ports + unique vertical channels
+    _route_ortho(diagram, procs, exts, stores, EXT_X, STORE_X)
+
     # one floating data_/info_ label per edge, near the process end, de-collided
     labels: list[Node] = []
     li = 0
@@ -190,8 +297,14 @@ def layout_dfd_ortho(diagram, title=None):
             continue
         proc = a if a.kind == PROCESS else b
         other = b if proc is a else a
-        lx = proc.cx + (other.cx - proc.cx) * 0.40
-        ly = proc.cy + (other.cy - proc.cy) * 0.40
+        if e.waypoints:
+            # sit the label on the edge's own vertical channel (its opaque box
+            # hides the line behind it); de_collide spreads parallels apart
+            (chx, y0), (_chx2, y1) = e.waypoints[0], e.waypoints[1]
+            lx, ly = chx, (y0 + y1) / 2
+        else:
+            lx = proc.cx + (other.cx - proc.cx) * 0.40
+            ly = proc.cy + (other.cy - proc.cy) * 0.40
         labels.append(make_label(f"_fl{li}", e.label, lx, ly, font=10))
         li += 1
     de_collide_labels(labels, [n for n in diagram.nodes if n.kind != "label"],
