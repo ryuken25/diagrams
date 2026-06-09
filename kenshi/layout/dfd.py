@@ -97,6 +97,7 @@ def _layout_clusters(diagram, title=None):
         lab = make_label(f"_fl{li}", e.label, mx, my, font=11)
         lab.style["flow"] = "1"
         labels.append(lab)
+        e.label = ""        # the floating node IS the label; avoid draw.io doubling it
         li += 1
     obstacles = [n for n in diagram.nodes if n.kind != "label"]
     de_collide_labels(labels, obstacles, passes=200, step=5.0, gap=6.0)
@@ -355,6 +356,7 @@ def layout_dfd_ortho(diagram, title=None):
             lx = (pts[0][0] + pts[-1][0]) / 2
             ly = (pts[0][1] + pts[-1][1]) / 2
         labels.append(make_label(f"_fl{li}", e.label, lx, ly, font=10))
+        e.label = ""        # the floating node IS the label; avoid draw.io doubling it
         li += 1
     de_collide_labels(labels, [n for n in diagram.nodes if n.kind != "label"],
                       passes=160, step=5.0, gap=6.0)

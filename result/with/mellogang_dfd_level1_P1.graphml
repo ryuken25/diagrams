@@ -228,7 +228,6 @@ Edit User</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_login</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -238,7 +237,6 @@ Edit User</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_autentikasi</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -248,7 +246,6 @@ Edit User</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_registrasi</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -258,7 +255,6 @@ Edit User</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_pelanggan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -268,7 +264,6 @@ Edit User</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_perubahan_user</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -278,7 +273,6 @@ Edit User</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_pelanggan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -288,7 +282,6 @@ Edit User</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_user</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -298,7 +291,6 @@ Edit User</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_user</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -308,7 +300,6 @@ Edit User</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_user</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -318,7 +309,6 @@ Edit User</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_user</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -328,7 +318,6 @@ Edit User</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_user</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -338,7 +327,6 @@ Edit User</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_user</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>

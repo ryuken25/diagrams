@@ -327,7 +327,6 @@ Editing</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_jadwal_produksi</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -337,7 +336,6 @@ Editing</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_admin</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -347,7 +345,6 @@ Editing</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_tugas_editing</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -357,7 +354,6 @@ Editing</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_editor</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -367,7 +363,6 @@ Editing</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_editing</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -377,7 +372,6 @@ Editing</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_editor</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -387,7 +381,6 @@ Editing</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_pemesanan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -397,7 +390,6 @@ Editing</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_pemesanan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -407,7 +399,6 @@ Editing</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_pemesanan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -417,7 +408,6 @@ Editing</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_pemesanan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -427,7 +417,6 @@ Editing</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_jadwal_produksi</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -437,7 +426,6 @@ Editing</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_jadwal_produksi</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -447,7 +435,6 @@ Editing</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_jadwal_produksi</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -457,7 +444,6 @@ Editing</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_jadwal_produksi</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -467,7 +453,6 @@ Editing</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_jadwal_produksi</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -477,7 +462,6 @@ Editing</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_jadwal_produksi</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -487,7 +471,6 @@ Editing</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_jadwal_produksi</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -497,7 +480,6 @@ Editing</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_tugas_editing</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>

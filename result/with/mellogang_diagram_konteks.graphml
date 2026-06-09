@@ -202,7 +202,6 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_registrasi_login</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -212,7 +211,6 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_pemesanan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -222,7 +220,6 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_pembayaran_bayar</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -232,7 +229,6 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_paket_portofolio</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -242,7 +238,6 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_pemesanan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -252,7 +247,6 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_user_paket_portofolio</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -262,7 +256,6 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_pembayaran</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -272,7 +265,6 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_pengeluaran_laporan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -282,7 +274,6 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_laporan_pemesanan_pendapatan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -292,7 +283,6 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_editing</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -302,7 +292,6 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_jadwal_produksi_tugas</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>

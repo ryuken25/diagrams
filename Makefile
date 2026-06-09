@@ -34,6 +34,11 @@ eval:
 onnx:
 	python ai/export_onnx.py
 
+# FASE D — render the real draw.io output headless (Playwright) for QA
+qa:
+	python -m kenshi.cli --out out
+	python qa/playwright_check.py
+
 clean:
 	rm -rf out out_beauty preview_*.png ai/artifacts/*.npz ai/artifacts/*.pt \
 		ai/artifacts/*.onnx ai/artifacts/test_idx.npy

@@ -702,7 +702,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_registrasi_login</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -712,7 +711,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_sesi</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -722,7 +720,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_layanan_promo</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -732,7 +729,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_pelanggan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -742,7 +738,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_pilihan_slot_booking</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -752,7 +747,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_kode_booking</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -762,7 +756,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_upload_dp</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -772,7 +765,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_pelanggan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -782,7 +774,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_layanan_promo</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -792,7 +783,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_admin</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -802,7 +792,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_tolak_walk_in</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -812,7 +801,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_admin</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -822,7 +810,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_dp</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -832,7 +819,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_admin</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -842,7 +828,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_jam_operasional_template</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -852,7 +837,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_admin</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -862,7 +846,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_laporan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -872,7 +855,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_laporan_pendapatan_analitik</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -882,7 +864,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_users</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -892,7 +873,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_users</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -902,7 +882,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_layanan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -912,7 +891,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_layanan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -922,7 +900,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_layanan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -932,7 +909,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_layanan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -942,7 +918,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_bookings</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -952,7 +927,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_bookings</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -962,7 +936,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_bookings</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -972,7 +945,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_bookings</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -982,7 +954,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_bookings</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -992,7 +963,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_bookings</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -1002,7 +972,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_booking_slots</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -1012,7 +981,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_booking_slots</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -1022,7 +990,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_booking_logs</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -1032,7 +999,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_booking_logs</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -1042,7 +1008,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_transaksi</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -1052,7 +1017,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_transaksi</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -1062,7 +1026,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_transaksi</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -1072,7 +1035,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_transaksi</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -1082,7 +1044,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_settings</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -1092,7 +1053,6 @@ Pengaturan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_settings</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>

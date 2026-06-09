@@ -315,7 +315,6 @@ Simpan Pemesanan
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_pemesanan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -325,7 +324,6 @@ Simpan Pemesanan
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_pelanggan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -335,7 +333,6 @@ Simpan Pemesanan
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_pemesanan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -345,7 +342,6 @@ Simpan Pemesanan
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_pelanggan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -355,7 +351,6 @@ Simpan Pemesanan
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_aturan_validasi</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -365,7 +360,6 @@ Simpan Pemesanan
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_admin</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -375,7 +369,6 @@ Simpan Pemesanan
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_paket</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -385,7 +378,6 @@ Simpan Pemesanan
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_paket</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -395,7 +387,6 @@ Simpan Pemesanan
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_paket</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -405,7 +396,6 @@ Simpan Pemesanan
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_paket</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -415,7 +405,6 @@ Simpan Pemesanan
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_pemesanan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -425,7 +414,6 @@ Simpan Pemesanan
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_pemesanan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -435,7 +423,6 @@ Simpan Pemesanan
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_detail_pemesanan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -445,7 +432,6 @@ Simpan Pemesanan
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_detail_pemesanan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -455,7 +441,6 @@ Simpan Pemesanan
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_pemesanan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -465,7 +450,6 @@ Simpan Pemesanan
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_pemesanan_valid</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>

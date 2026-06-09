@@ -16,3 +16,6 @@ preview_*.png
 
 # Local clones used only as importer test input
 _beauty/
+
+# Playwright QA renders (regenerated)
+qa/drawio/

@@ -130,6 +130,7 @@ def layout_context(diagram, ring: float = 0.0):
             if e.label:
                 labels.append(make_label(f"_fl{li}", e.label, lx, ly, font=11))
                 labels[-1].style["flow"] = "1"
+                e.label = ""    # floating node IS the label; avoid draw.io doubling
                 li += 1
 
     obstacles = [x for x in diagram.nodes if x.kind != "label"]

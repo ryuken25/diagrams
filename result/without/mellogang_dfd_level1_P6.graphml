@@ -279,7 +279,6 @@ Pengeluaran</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_laporan_pemesanan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -289,7 +288,6 @@ Pengeluaran</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_laporan_pemesanan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -299,7 +297,6 @@ Pengeluaran</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_laporan_pendapatan_pengeluaran</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -309,7 +306,6 @@ Pengeluaran</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_admin</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -319,7 +315,6 @@ Pengeluaran</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_pengeluaran</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -329,7 +324,6 @@ Pengeluaran</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_admin</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -339,7 +333,6 @@ Pengeluaran</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_pemesanan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -349,7 +342,6 @@ Pengeluaran</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_pemesanan</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -359,7 +351,6 @@ Pengeluaran</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_pembayaran</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -369,7 +360,6 @@ Pengeluaran</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_pembayaran</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -379,7 +369,6 @@ Pengeluaran</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_pengeluaran_operasional</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -389,7 +378,6 @@ Pengeluaran</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_pengeluaran_operasional</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -399,7 +387,6 @@ Pengeluaran</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_pengeluaran_operasional</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
@@ -409,7 +396,6 @@ Pengeluaran</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_pengeluaran_operasional</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
