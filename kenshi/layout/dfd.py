@@ -145,7 +145,7 @@ def layout_dfd_ortho(diagram, title=None):
         w, _ = measure_label(s.label, font=12, min_w=STORE_W, min_h=STORE_H)
         s.w, s.h = max(STORE_W, w), STORE_H
 
-    EXT_X, STORE_X, VGAP = -640.0, 640.0, 116.0
+    EXT_X, STORE_X, VGAP = -780.0, 780.0, 132.0
     # process column
     y = 0.0
     for p in procs:

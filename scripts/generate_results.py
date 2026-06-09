@@ -18,6 +18,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from kenshi.content import mellogang, beauty_salon
 from kenshi.export import to_drawio, to_graphml
 from kenshi.metrics import label_overlaps, shape_overlaps, edge_crossings
+from kenshi.preview import render
 from kenshi.ai import model_order_fn
 
 ONNX = os.path.join("ai", "artifacts", "kenshi-layout.onnx")
@@ -30,6 +31,10 @@ def _write(folder, name, d):
         to_drawio(d))
     open(os.path.join(folder, f"{name}.graphml"), "w", encoding="utf-8").write(
         to_graphml(d))
+    try:
+        render(d, os.path.join(folder, f"{name}.png"))
+    except Exception as exc:
+        print("  (png skipped for", name, ":", exc, ")")
 
 
 def build_set(order_fn):

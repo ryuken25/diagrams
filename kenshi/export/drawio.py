@@ -84,6 +84,12 @@ def _edge_style(e) -> str:
         base += "edgeStyle=orthogonalEdgeStyle;"
     else:
         base += "edgeStyle=none;"
+    # fixed perimeter ports (so parallel edges don't collapse onto one channel)
+    for k in ("exitX", "exitY", "entryX", "entryY"):
+        if k in e.style:
+            base += f"{k}={e.style[k]};"
+    if any(k in e.style for k in ("exitX", "entryX")):
+        base += "exitDx=0;exitDy=0;entryDx=0;entryDy=0;"
     return base
 
 
