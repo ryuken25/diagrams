@@ -219,10 +219,10 @@ Pelaporan</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="175.0" x="173.1" y="365.7"/>
+          <y:Geometry height="24.0" width="144.0" x="188.6" y="365.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_data_registrasi_login</y:NodeLabel>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_registrasi_login</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -832,7 +832,7 @@ Pelaporan</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#000000" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_data_registrasi_login</y:EdgeLabel>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_registrasi_login</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>

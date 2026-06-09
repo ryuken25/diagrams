@@ -151,7 +151,7 @@ def layout_chen(diagram, r_e: float = 560.0, order_fn=None):
             # spread columns across the sector, centred on the entity angle
             frac = (col / (cols - 1) - 0.5) if cols > 1 else 0.0
             a_ang = ang + frac * sector
-            rad = r_a + row * 92.0
+            rad = r_a + row * 110.0           # wider radial pitch -> no kissing
             attr.x = cx + rad * math.cos(a_ang) - attr.w / 2
             attr.y = cy + rad * math.sin(a_ang) - attr.h / 2
 
@@ -185,7 +185,7 @@ def layout_chen(diagram, r_e: float = 560.0, order_fn=None):
     # --- spread attributes & diamonds so nothing clips (entities stay on ring) ---
     movable = [n for n in diagram.nodes if n.kind in (ATTRIBUTE, RELATIONSHIP)]
     fixed = [n for n in diagram.nodes if n.kind == ENTITY]
-    de_collide_labels(movable, fixed, passes=200, step=6.0, gap=10.0)
+    de_collide_labels(movable, fixed, passes=300, step=7.0, gap=18.0)
 
     # --- cardinality labels at the entity end of each connector ---
     labels: list[Node] = []

@@ -101,6 +101,10 @@ def _noun(text: str, fallback: str = "data") -> str:
            .replace(",", " ").replace("-", " "))
     all_toks = [t for t in raw.split() if t]
     toks = [t for t in all_toks if t not in _STOP]
+    if not toks:
+        # every word was a stopword: keep the words but DROP the generic prefix
+        # words ("data"/"info") so we never produce data_data_* / info_info_*
+        toks = [t for t in all_toks if t not in ("data", "info", "informasi")]
     toks = toks or all_toks or [fallback]   # never collapse to nothing
     return "_".join(toks[:3])
 
