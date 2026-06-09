@@ -77,8 +77,9 @@ def _node_style(n) -> str:
 def _edge_style(e) -> str:
     end = _CROW.get(e.end_arrow, e.end_arrow or "block")
     start = _CROW.get(e.start_arrow, e.start_arrow or "none")
-    base = ("html=1;rounded=0;strokeColor=#1F3A5F;strokeWidth=1.4;"
-            f"endArrow={end};startArrow={start};")
+    base = ("html=1;rounded=1;strokeColor=#1F3A5F;strokeWidth=1.4;"
+            f"endArrow={end};startArrow={start};"
+            "jumpStyle=arc;jumpSize=10;")          # arc line-jumps at crossings
     if e.routing == "orthogonal":
         base += "edgeStyle=orthogonalEdgeStyle;"
     else:
@@ -156,11 +157,16 @@ def _cell_node(n, parent="1") -> str:
 
 def _cell_edge(e, parent="1") -> str:
     label = _esc(e.label)
+    pts = ""
+    if e.waypoints:
+        inner = "".join(f'<mxPoint x="{x:.1f}" y="{y:.1f}"/>'
+                        for (x, y) in e.waypoints)
+        pts = f'<Array as="points">{inner}</Array>'
     return (
         f'<mxCell id={quoteattr(e.id)} value="{label}" '
         f'style="{_edge_style(e)}" edge="1" parent="{parent}" '
         f'source={quoteattr(e.source)} target={quoteattr(e.target)}>'
-        f'<mxGeometry relative="1" as="geometry"/></mxCell>'
+        f'<mxGeometry relative="1" as="geometry">{pts}</mxGeometry></mxCell>'
     )
 
 

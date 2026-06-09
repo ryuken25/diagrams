@@ -116,6 +116,101 @@ def _layout_clusters(diagram, title=None):
     return diagram
 
 
+def _spread_column(nodes, min_gap):
+    """1-D overlap removal: keep desired order, push apart to keep min vertical gap."""
+    nodes.sort(key=lambda n: n.style.get("_wy", n.cy))
+    for i in range(1, len(nodes)):
+        prev = nodes[i - 1]
+        cur = nodes[i]
+        need = prev.y + prev.h + min_gap
+        if cur.y < need:
+            cur.y = need
+
+
+def layout_dfd_ortho(diagram, title=None):
+    """Chelisnet-style: single externals (left), processes (centre column),
+    single data stores (right); orthogonal edges. Overlap-free by column."""
+    procs = [n for n in diagram.nodes if n.kind == PROCESS]
+    procs.sort(key=lambda p: p.style.get("order", 0))
+    exts = [n for n in diagram.nodes if n.kind == EXTERNAL]
+    stores = [n for n in diagram.nodes if n.kind == DATASTORE]
+
+    for p in procs:
+        w, h = measure_label(p.label, font=13, min_w=PROC_W, min_h=PROC_H)
+        p.w, p.h = max(PROC_W, w), max(PROC_H, h)
+    for e in exts:
+        w, h = measure_label(e.label, font=13, min_w=EXT_W, min_h=EXT_H)
+        e.w, e.h = max(EXT_W, w), max(EXT_H, h)
+    for s in stores:
+        w, _ = measure_label(s.label, font=12, min_w=STORE_W, min_h=STORE_H)
+        s.w, s.h = max(STORE_W, w), STORE_H
+
+    EXT_X, STORE_X, VGAP = -640.0, 640.0, 116.0
+    # process column
+    y = 0.0
+    for p in procs:
+        p.x = -p.w / 2
+        p.y = y
+        y += p.h + VGAP
+
+    node_by = {n.id: n for n in diagram.nodes}
+
+    def connected_procs(node):
+        ys = []
+        for e in diagram.edges:
+            other = None
+            if e.source == node.id:
+                other = node_by.get(e.target)
+            elif e.target == node.id:
+                other = node_by.get(e.source)
+            if other is not None and other.kind == PROCESS:
+                ys.append(other.cy)
+        return ys
+
+    # externals (left) & stores (right): align to the mean y of their processes
+    for col, cx in ((exts, EXT_X), (stores, STORE_X)):
+        for n in col:
+            ys = connected_procs(n)
+            wy = sum(ys) / len(ys) if ys else 0.0
+            n.style["_wy"] = wy
+            n.x = cx - n.w / 2
+            n.y = wy - n.h / 2
+        _spread_column(col, min_gap=46.0)
+        for n in col:
+            n.x = cx - n.w / 2
+
+    # one floating data_/info_ label per edge, near the process end, de-collided
+    labels: list[Node] = []
+    li = 0
+    for e in diagram.edges:
+        if not e.label:
+            continue
+        a, b = node_by.get(e.source), node_by.get(e.target)
+        if not a or not b:
+            continue
+        proc = a if a.kind == PROCESS else b
+        other = b if proc is a else a
+        lx = proc.cx + (other.cx - proc.cx) * 0.40
+        ly = proc.cy + (other.cy - proc.cy) * 0.40
+        labels.append(make_label(f"_fl{li}", e.label, lx, ly, font=10))
+        li += 1
+    de_collide_labels(labels, [n for n in diagram.nodes if n.kind != "label"],
+                      passes=260, step=5.0, gap=7.0)
+    diagram.nodes.extend(labels)
+
+    t = Node(id="_title", kind="title",
+             label=title or diagram.meta.get("title", diagram.name),
+             w=760, h=40)
+    minx = min(x.x for x in diagram.nodes)
+    maxx = max(x.x + x.w for x in diagram.nodes)
+    miny = min(x.y for x in diagram.nodes)
+    t.x = (minx + maxx) / 2 - t.w / 2
+    t.y = miny - 76
+    diagram.nodes.append(t)
+    normalize(diagram, margin=60)
+    return diagram
+
+
 def layout_dfd0(diagram, title=None):
     return _layout_clusters(diagram, title=title)
 

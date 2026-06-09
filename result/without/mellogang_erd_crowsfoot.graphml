@@ -8,7 +8,7 @@
       <data key="d_kind">entity</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="204.0" width="170.0" x="60.0" y="93.0"/>
+          <y:Geometry height="204.0" width="200.0" x="60.0" y="93.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
           <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">User
@@ -29,7 +29,7 @@ PK id_user
       <data key="d_kind">entity</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="270.0" width="187.0" x="380.0" y="60.0"/>
+          <y:Geometry height="270.0" width="223.0" x="410.0" y="60.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
           <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Pemesanan
@@ -53,7 +53,7 @@ FK id_paket
       <data key="d_kind">entity</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="226.0" width="170.0" x="60.0" y="367.0"/>
+          <y:Geometry height="226.0" width="200.0" x="60.0" y="367.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
           <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Paket
@@ -75,7 +75,7 @@ PK id_paket
       <data key="d_kind">entity</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="226.0" width="187.0" x="380.0" y="400.0"/>
+          <y:Geometry height="226.0" width="223.0" x="410.0" y="400.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
           <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Portofolio
@@ -97,7 +97,7 @@ FK id_paket
       <data key="d_kind">entity</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="270.0" width="233.0" x="717.0" y="60.0"/>
+          <y:Geometry height="270.0" width="277.0" x="783.0" y="60.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
           <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Jadwal_Produksi
@@ -121,7 +121,7 @@ FK id_user</y:NodeLabel>
       <data key="d_kind">entity</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="226.0" width="195.0" x="736.0" y="400.0"/>
+          <y:Geometry height="226.0" width="232.0" x="805.5" y="400.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
           <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Pembayaran
@@ -143,7 +143,7 @@ FK id_pemesanan
       <data key="d_kind">entity</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="204.0" width="202.0" x="1100.0" y="241.0"/>
+          <y:Geometry height="204.0" width="241.0" x="1210.0" y="241.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
           <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Pengeluaran_Operasional

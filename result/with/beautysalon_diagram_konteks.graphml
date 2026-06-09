@@ -57,10 +57,10 @@ Sistem Informasi Booking SW Beauty Salon</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="25.0" width="136.0" x="543.9" y="558.7"/>
+          <y:Geometry height="25.0" width="157.0" x="533.4" y="558.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Registrasi &amp; login</y:NodeLabel>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_registrasi_login</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -69,10 +69,10 @@ Sistem Informasi Booking SW Beauty Salon</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="25.0" width="198.0" x="542.9" y="481.2"/>
+          <y:Geometry height="25.0" width="184.0" x="549.9" y="481.2"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Data booking &amp; pilihan slot</y:NodeLabel>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_booking_pilihan_slot</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -81,10 +81,10 @@ Sistem Informasi Booking SW Beauty Salon</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="25.0" width="143.0" x="600.4" y="403.7"/>
+          <y:Geometry height="25.0" width="136.0" x="603.9" y="403.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Bukti pembayaran DP</y:NodeLabel>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_pembayaran_dp</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -93,10 +93,10 @@ Sistem Informasi Booking SW Beauty Salon</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="25.0" width="150.0" x="626.9" y="326.2"/>
+          <y:Geometry height="25.0" width="136.0" x="633.9" y="326.2"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Info layanan &amp; promo</y:NodeLabel>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_layanan_promo</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -105,10 +105,10 @@ Sistem Informasi Booking SW Beauty Salon</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="25.0" width="157.0" x="653.4" y="248.7"/>
+          <y:Geometry height="25.0" width="129.0" x="667.4" y="248.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Kode booking &amp; status</y:NodeLabel>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_kode_booking</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -117,10 +117,10 @@ Sistem Informasi Booking SW Beauty Salon</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="25.0" width="170.0" x="877.6" y="863.7"/>
+          <y:Geometry height="25.0" width="116.0" x="876.1" y="854.4"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Verifikasi booking &amp; DP</y:NodeLabel>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_booking_dp</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -129,10 +129,10 @@ Sistem Informasi Booking SW Beauty Salon</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="25.0" width="164.0" x="869.5" y="913.6"/>
+          <y:Geometry height="25.0" width="150.0" x="876.5" y="913.6"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Data walk-in &amp; layanan</y:NodeLabel>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_walk_in_layanan</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -141,10 +141,10 @@ Sistem Informasi Booking SW Beauty Salon</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="25.0" width="191.0" x="930.5" y="991.2"/>
+          <y:Geometry height="25.0" width="225.0" x="913.5" y="991.2"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Pengaturan jam operasional</y:NodeLabel>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_pengaturan_jam_operasional</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -153,10 +153,10 @@ Sistem Informasi Booking SW Beauty Salon</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="25.0" width="198.0" x="926.8" y="1061.6"/>
+          <y:Geometry height="25.0" width="170.0" x="955.7" y="1063.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Daftar booking &amp; notifikasi</y:NodeLabel>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_booking_notifikasi</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -165,10 +165,10 @@ Sistem Informasi Booking SW Beauty Salon</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="25.0" width="136.0" x="428.9" y="887.9"/>
+          <y:Geometry height="25.0" width="95.0" x="449.4" y="887.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Permintaan laporan</y:NodeLabel>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_laporan</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -177,10 +177,10 @@ Sistem Informasi Booking SW Beauty Salon</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="25.0" width="211.0" x="107.9" y="1016.9"/>
+          <y:Geometry height="25.0" width="232.0" x="97.4" y="1016.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Laporan pendapatan &amp; analitik</y:NodeLabel>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_laporan_pendapatan_analitik</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -202,8 +202,8 @@ Sistem Informasi Booking SW Beauty Salon</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Registrasi &amp; login</y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_registrasi_login</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
@@ -212,8 +212,8 @@ Sistem Informasi Booking SW Beauty Salon</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Data booking &amp; pilihan slot</y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_booking_pilihan_slot</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
@@ -222,8 +222,8 @@ Sistem Informasi Booking SW Beauty Salon</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Bukti pembayaran DP</y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_pembayaran_dp</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
@@ -232,8 +232,8 @@ Sistem Informasi Booking SW Beauty Salon</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Info layanan &amp; promo</y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_layanan_promo</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
@@ -242,8 +242,8 @@ Sistem Informasi Booking SW Beauty Salon</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Kode booking &amp; status</y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_kode_booking</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
@@ -252,8 +252,8 @@ Sistem Informasi Booking SW Beauty Salon</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Verifikasi booking &amp; DP</y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_booking_dp</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
@@ -262,8 +262,8 @@ Sistem Informasi Booking SW Beauty Salon</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Data walk-in &amp; layanan</y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_walk_in_layanan</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
@@ -272,8 +272,8 @@ Sistem Informasi Booking SW Beauty Salon</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Pengaturan jam operasional</y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_pengaturan_jam_operasional</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
@@ -282,8 +282,8 @@ Sistem Informasi Booking SW Beauty Salon</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Daftar booking &amp; notifikasi</y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_booking_notifikasi</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
@@ -292,8 +292,8 @@ Sistem Informasi Booking SW Beauty Salon</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Permintaan laporan</y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_laporan</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
@@ -302,8 +302,8 @@ Sistem Informasi Booking SW Beauty Salon</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Laporan pendapatan &amp; analitik</y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_laporan_pendapatan_analitik</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>

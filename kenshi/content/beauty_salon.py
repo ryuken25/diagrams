@@ -117,7 +117,7 @@ def build_dfd0():
                                ("Baca pengaturan", "from")])],
         },
     }
-    return generic.build_dfd(data)
+    return generic.build_dfd_ortho(data)
 
 
 def build_all():

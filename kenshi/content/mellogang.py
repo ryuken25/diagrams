@@ -128,9 +128,10 @@ STORE_NAMES = {
 
 
 def _materialize_dfd(data) -> Diagram:
-    """Inject MellogangVisuals store labels and build via the generic engine."""
+    """Inject MellogangVisuals store labels and build via the orthogonal,
+    single-node (Chelisnet-style) DFD engine."""
     data = {**data, "store_names": STORE_NAMES}
-    return generic.build_dfd(data)
+    return generic.build_dfd_ortho(data)
 
 
 def build_dfd0() -> Diagram:

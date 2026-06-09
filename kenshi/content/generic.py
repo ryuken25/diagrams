@@ -60,7 +60,7 @@ def build_erd_crowsfoot(name, title, entities, relationships) -> Diagram:
             if fk not in attrs:
                 rows.append((fk, "fk"))
         longest = max([len(ename)] + [len(t) + 4 for t, _k in rows])
-        w = max(170, int(longest * 7.6) + 28)
+        w = max(200, int(longest * 9.0) + 34)
         h = HEADER_H + len(rows) * ROW_H
         # rows are carried in style so the exporters/preview can draw a real
         # table (header band + separated, marked rows) instead of flat text.
@@ -82,8 +82,111 @@ def build_context(name, title, system_label, actors, flows) -> Diagram:
     for a in actors:
         d.add(Node(id=a, kind=EXTERNAL, label=a))
     for i, (s, t, lab) in enumerate(flows):
-        d.connect(Edge(id=f"cf{i}", source=s, target=t, label=lab))
+        direction = "to" if t == "SYS" else "from"
+        d.connect(Edge(id=f"cf{i}", source=s, target=t,
+                       label=flow_label(lab, direction), routing="orthogonal"))
     return layout_context(d)
+
+
+_STOP = {"atur", "kelola", "input", "update", "simpan", "baca", "data", "info",
+         "informasi", "daftar", "hasil", "permintaan", "generate", "login",
+         "konfirmasi", "verifikasi", "dan", "ke", "yang", "baru", "ubah",
+         "hapus", "terkait", "untuk", "dijadwalkan", "progres", "status", "and",
+         "of", "the", "a", "registrasi", "bukti"}
+
+
+def _noun(text: str, fallback: str = "data") -> str:
+    """Snake_case subject noun from a descriptive flow label (drop verbs)."""
+    raw = (text.lower().replace("&", " ").replace("/", " ")
+           .replace(",", " ").replace("-", " "))
+    all_toks = [t for t in raw.split() if t]
+    toks = [t for t in all_toks if t not in _STOP]
+    toks = toks or all_toks or [fallback]   # never collapse to nothing
+    return "_".join(toks[:3])
+
+
+def flow_label(subject: str, direction: str) -> str:
+    """The full convention: INTO a process/store -> data_*, OUT of it -> info_*."""
+    prefix = "data_" if direction == "to" else "info_"
+    return prefix + _noun(subject, fallback="x")
+
+
+def build_dfd_ortho(data) -> Diagram:
+    """Chelisnet-style DFD: SINGLE (non-duplicated) externals & stores, processes
+    in a central column, orthogonal edges, strict data_/info_ flow names."""
+    from ..layout.dfd import layout_dfd_ortho
+    store_names = data.get("store_names", {})
+    d = Diagram(id=data["id"], name=data["name"], type=data["type"],
+                meta={"title": data["title"]})
+    for order, (pid, plabel) in enumerate(data["procs"]):
+        d.add(Node(id=pid, kind=PROCESS, label=plabel, style={"order": order}))
+
+    procs = [p[0] for p in data["procs"]]
+    # gather UNIQUE externals and stores with the (process, flows) they touch
+    ext_links: dict[str, list] = {}
+    store_links: dict[str, list] = {}
+    for pid in procs:
+        for (actor, flows) in data.get("ext", {}).get(pid, []):
+            ext_links.setdefault(actor, []).append((pid, flows))
+        for (sid, _nm, flows) in data.get("store", {}).get(pid, []):
+            store_links.setdefault(sid, []).append((pid, flows))
+
+    # one external node each (left), one store node each (right)
+    for actor in ext_links:
+        d.add(Node(id=f"E_{_safe(actor)}", kind=EXTERNAL, label=actor,
+                   style={"col": "ext"}))
+    for sid in store_links:
+        d.add(Node(id=f"S_{sid}", kind=DATASTORE, label=store_names.get(sid, sid),
+                   borders=Borders.open_store(), store_id=sid,
+                   style={"col": "store"}))
+
+    ei = 0
+    for actor, links in ext_links.items():
+        nid = f"E_{_safe(actor)}"
+        seen = set()
+        for (pid, flows) in links:
+            dirs = {dr for _l, dr in flows}
+            flows = list(flows)
+            if "to" not in dirs:
+                flows.append((actor, "to"))
+            if "from" not in dirs:
+                flows.append((actor, "from"))
+            for (lbl, direction) in flows:
+                name = flow_label(lbl, direction)
+                key = (pid, direction, name)
+                if key in seen:
+                    continue
+                seen.add(key)
+                s, t = (nid, pid) if direction == "to" else (pid, nid)
+                d.connect(Edge(id=f"ee{ei}", source=s, target=t, label=name,
+                               routing="orthogonal"))
+                ei += 1
+    si = 0
+    for sid, links in store_links.items():
+        nid = f"S_{sid}"
+        base = store_names.get(sid, sid).split("  ")[-1]
+        seen = set()
+        for (pid, flows) in links:
+            dirs = {dr for _l, dr in flows}
+            flows = list(flows)
+            if "to" not in dirs:
+                flows.append((base, "to"))
+            if "from" not in dirs:
+                flows.append((base, "from"))
+            for (lbl, direction) in flows:
+                name = ("data_" if direction == "to" else "info_") + base
+                key = (pid, direction)
+                if key in seen:
+                    continue
+                seen.add(key)
+                s, t = (pid, nid) if direction == "to" else (nid, pid)
+                d.connect(Edge(id=f"se{si}", source=s, target=t, label=name,
+                               routing="orthogonal"))
+                si += 1
+    for j, (s, t, lab) in enumerate(data.get("pp", [])):
+        d.connect(Edge(id=f"pp{j}", source=s, target=t,
+                       label=flow_label(lab, "to"), routing="orthogonal"))
+    return layout_dfd_ortho(d, title=data["title"])
 
 
 def build_dfd(data) -> Diagram:

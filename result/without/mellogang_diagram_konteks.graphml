@@ -57,10 +57,10 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="25.0" width="170.0" x="526.9" y="558.7"/>
+          <y:Geometry height="25.0" width="191.0" x="516.4" y="558.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Data registrasi &amp; login</y:NodeLabel>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_data_registrasi_login</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -72,7 +72,7 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
           <y:Geometry height="25.0" width="109.0" x="587.4" y="481.2"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Data pemesanan</y:NodeLabel>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_pemesanan</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -81,10 +81,10 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="25.0" width="211.0" x="566.4" y="403.7"/>
+          <y:Geometry height="25.0" width="157.0" x="593.4" y="403.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Data pembayaran &amp; bukti bayar</y:NodeLabel>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_pembayaran_bayar</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -93,10 +93,10 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="25.0" width="204.0" x="599.9" y="326.2"/>
+          <y:Geometry height="25.0" width="157.0" x="623.4" y="326.2"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Informasi paket &amp; portofolio</y:NodeLabel>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_paket_portofolio</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -105,10 +105,10 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="25.0" width="211.0" x="626.4" y="248.7"/>
+          <y:Geometry height="25.0" width="109.0" x="677.4" y="248.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Konfirmasi &amp; status pemesanan</y:NodeLabel>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_pemesanan</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -117,10 +117,10 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="25.0" width="211.0" x="876.1" y="869.8"/>
+          <y:Geometry height="25.0" width="191.0" x="886.1" y="869.8"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Data user, paket &amp; portofolio</y:NodeLabel>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_user_paket_portofolio</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -129,10 +129,10 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="25.0" width="157.0" x="873.0" y="913.6"/>
+          <y:Geometry height="25.0" width="116.0" x="893.5" y="913.6"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Verifikasi pembayaran</y:NodeLabel>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_pembayaran</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -141,10 +141,10 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="25.0" width="266.0" x="893.0" y="991.2"/>
+          <y:Geometry height="25.0" width="177.0" x="937.5" y="991.2"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Data pengeluaran &amp; permintaan laporan</y:NodeLabel>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_pengeluaran_laporan</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -153,10 +153,10 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="25.0" width="307.0" x="817.6" y="1056.2"/>
+          <y:Geometry height="25.0" width="239.0" x="886.4" y="1059.6"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Laporan pemesanan, pendapatan &amp; pengeluaran</y:NodeLabel>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_laporan_pemesanan_pendapatan</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -165,10 +165,10 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="25.0" width="218.0" x="387.9" y="887.9"/>
+          <y:Geometry height="25.0" width="95.0" x="449.4" y="887.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Login &amp; update progres editing</y:NodeLabel>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_editing</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -177,10 +177,10 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="25.0" width="218.0" x="104.4" y="1016.9"/>
+          <y:Geometry height="25.0" width="191.0" x="117.9" y="1016.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Jadwal produksi &amp; daftar tugas</y:NodeLabel>
+          <y:NodeLabel fontSize="11" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_jadwal_produksi_tugas</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -202,8 +202,8 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Data registrasi &amp; login</y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_data_registrasi_login</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
@@ -212,8 +212,8 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Data pemesanan</y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_pemesanan</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
@@ -222,8 +222,8 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Data pembayaran &amp; bukti bayar</y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_pembayaran_bayar</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
@@ -232,8 +232,8 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Informasi paket &amp; portofolio</y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_paket_portofolio</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
@@ -242,8 +242,8 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Konfirmasi &amp; status pemesanan</y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_pemesanan</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
@@ -252,8 +252,8 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Data user, paket &amp; portofolio</y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_user_paket_portofolio</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
@@ -262,8 +262,8 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Verifikasi pembayaran</y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_pembayaran</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
@@ -272,8 +272,8 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Data pengeluaran &amp; permintaan laporan</y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_pengeluaran_laporan</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
@@ -282,8 +282,8 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Laporan pemesanan, pendapatan &amp; pengeluaran</y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_laporan_pemesanan_pendapatan</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
@@ -292,8 +292,8 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Login &amp; update progres editing</y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">data_editing</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
@@ -302,8 +302,8 @@ Sistem Informasi Manajemen Jasa Foto &amp; Video</y:NodeLabel>
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">Jadwal produksi &amp; daftar tugas</y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
+          <y:EdgeLabel fontSize="11" backgroundColor="#FFFFFF">info_jadwal_produksi_tugas</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>

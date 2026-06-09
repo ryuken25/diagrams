@@ -30,8 +30,8 @@ def render(diagram, path, scale=0.01, mono=False, transparent=False):
     xs = [n.x for n in diagram.nodes] + [n.x + n.w for n in diagram.nodes]
     ys = [n.y for n in diagram.nodes] + [n.y + n.h for n in diagram.nodes]
     minx, maxx, miny, maxy = min(xs), max(xs), min(ys), max(ys)
-    w = (maxx - minx) * scale + 2
-    h = (maxy - miny) * scale + 2
+    w = min(20, (maxx - minx) * scale + 2)
+    h = min(20, (maxy - miny) * scale + 2)
     fig, ax = plt.subplots(figsize=(max(6, w), max(6, h)))
     ax.set_xlim(minx - 40, maxx + 40)
     ax.set_ylim(maxy + 40, miny - 40)   # invert y (screen frame)
@@ -43,9 +43,15 @@ def render(diagram, path, scale=0.01, mono=False, transparent=False):
         if not a or not b:
             continue
         (sx, sy), (tx, ty) = clip_edge(a, b)
-        ax.annotate("", xy=(tx, ty), xytext=(sx, sy),
-                    arrowprops=dict(arrowstyle="-|>" if e.end_arrow != "none"
-                                    else "-", color=stroke, lw=1.0))
+        astyle = "-|>" if e.end_arrow != "none" else "-"
+        if e.routing == "orthogonal":
+            midx = (sx + tx) / 2
+            ax.plot([sx, midx, midx], [sy, sy, ty], color=stroke, lw=1.0)
+            ax.annotate("", xy=(tx, ty), xytext=(midx, ty),
+                        arrowprops=dict(arrowstyle=astyle, color=stroke, lw=1.0))
+        else:
+            ax.annotate("", xy=(tx, ty), xytext=(sx, sy),
+                        arrowprops=dict(arrowstyle=astyle, color=stroke, lw=1.0))
 
     for n in diagram.nodes:
         cx, cy = n.center
@@ -89,7 +95,7 @@ def render(diagram, path, scale=0.01, mono=False, transparent=False):
                 color=txt, wrap=True)
 
     fig.tight_layout()
-    fig.savefig(path, dpi=130, bbox_inches="tight", transparent=transparent)
+    fig.savefig(path, dpi=95, bbox_inches="tight", transparent=transparent)
     plt.close(fig)
 
 
