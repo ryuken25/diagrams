@@ -1,6 +1,6 @@
 # Kenshi Diagrams — common flows
 
-.PHONY: gen results gallery check train eval onnx clean
+.PHONY: gen results gallery mono check train eval onnx clean
 
 # Generate MellogangVisuals diagrams to out/
 gen:
@@ -13,6 +13,10 @@ results:
 # Render PNG previews of every diagram into docs/img/
 gallery:
 	python scripts/make_gallery.py
+
+# MellogangVisuals in monochrome (B/W) with transparent-background PNGs -> generated/
+mono:
+	python scripts/generate_mono.py
 
 # Report overlap metrics (acceptance: 0 label + 0 shape overlaps)
 check:

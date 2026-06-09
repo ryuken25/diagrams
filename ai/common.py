@@ -16,16 +16,18 @@ import numpy as np
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from kenshi.layout.chen import crossing_order, ring_crossings  # noqa: E402
 
-N_MIN, N_MAX = 3, 12
-PAD = 12        # max nodes incl. padding
-N_EIG = 4       # Laplacian eigenvectors used as positional features
+# Distribution tuned to real academic ERDs: a handful of entities, sparse FK
+# graph (each table links to a few others) — NOT dense 12-node tangles.
+N_MIN, N_MAX = 3, 9
+PAD = 10        # max nodes incl. padding
+N_EIG = 6       # Laplacian eigenvectors used as positional features
 FEAT_DIM = 2 + N_EIG
 
 
 def random_graph(rng: np.random.Generator):
     """A random relationship graph among n entities (varied FK density)."""
     n = int(rng.integers(N_MIN, N_MAX + 1))
-    density = rng.uniform(0.15, 0.6)
+    density = rng.uniform(0.12, 0.42)
     pairs = set()
     # a light spanning chain so graphs aren't trivially disconnected
     perm = rng.permutation(n)
@@ -66,9 +68,13 @@ def fast_crossings(order, pairs):
     return int(np.triu(cross, 1).sum())
 
 
-def fast_order(n, pairs, max_passes=3):
-    """Near-optimal crossing-minimising cyclic order (2-opt, capped passes)."""
-    best = list(range(n))
+def fast_order(n, pairs, max_passes=8, start=None):
+    """Near-optimal crossing-minimising cyclic order (2-opt, capped passes).
+
+    ``start`` seeds the search (default: identity). Seeding with the model's
+    predicted order makes a 1–2 pass polish converge to the optimum fast — the
+    offline 'AI tidy' path (model proposes, light deterministic local search)."""
+    best = list(start) if start is not None else list(range(n))
     best_c = fast_crossings(best, pairs)
     for _ in range(max_passes):
         improved = False

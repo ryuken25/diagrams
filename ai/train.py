@@ -95,21 +95,23 @@ def main():
         with torch.no_grad():
             P = model(to(feats, va), to(adjs, va))
             val = procrustes_loss(P, to(targets, va), to(masks, va)).item()
-        sched.step(val)
-        if val < best_val - 1e-5:
-            best_val = val
+        # Select on the crossing-gap metric we actually care about — the Gram
+        # loss is only a proxy and is not perfectly aligned with crossings.
+        gap, opt_rate = crossing_gap(model, feats[va], adjs[va], masks[va],
+                                     tcross[va], device, sample=2000)
+        sched.step(gap)
+        if gap < best_val - 1e-4:
+            best_val = gap
             best_state = {k: v.cpu().clone() for k, v in model.state_dict().items()}
             bad = 0
         else:
             bad += 1
         if epoch % 5 == 0 or epoch == 1:
-            gap, opt_rate = crossing_gap(model, feats, adjs, masks, tcross,
-                                         device)
             print(f"epoch {epoch:3d}  train {tr_loss:.4f}  val {val:.4f}  "
                   f"crossGap {gap:+.3f}  optimal {opt_rate*100:.1f}%  "
-                  f"{time.time()-t0:.1f}s")
+                  f"best {best_val:+.3f}  {time.time()-t0:.1f}s")
         if bad >= a.patience:
-            print(f"early stop at epoch {epoch} (no val improvement "
+            print(f"early stop at epoch {epoch} (no crossGap improvement "
                   f"for {a.patience})")
             break
 
@@ -118,7 +120,7 @@ def main():
                 "layers": a.layers}, a.out)
     gap, opt_rate = crossing_gap(model, feats[te], adjs[te], masks[te],
                                  tcross[te], device, sample=len(te))
-    print(f"\nBEST val loss {best_val:.4f}  |  TEST crossGap {gap:+.3f}  "
+    print(f"\nBEST val crossGap {best_val:+.3f}  |  TEST crossGap {gap:+.3f}  "
           f"optimal {opt_rate*100:.1f}%")
     print(f"saved -> {a.out}")
 

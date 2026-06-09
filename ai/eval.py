@@ -15,7 +15,8 @@ import torch
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from model import RingGNN
-from common import decode_order, features, teacher
+from common import decode_order, features, teacher, fast_order, fast_crossings
+from real_erds import REAL_ERDS
 from kenshi.layout.chen import ring_crossings
 from kenshi.content import mellogang
 from kenshi.metrics import label_overlaps, shape_overlaps
@@ -73,6 +74,34 @@ def eval_real(model, device):
             "mellogang_teacher_crossings": teacher_c}
 
 
+def eval_real_erds(model, device, refine=1):
+    """Eval on real-world ERDs ('ERD orang'). Returns per-ERD + aggregate.
+
+    Reports the offline path = model proposes the order, then a light ``refine``-
+    pass 2-opt polish (seeded by the model) renders it. 'good' = matches the
+    deterministic engine's optimum crossing count.
+    """
+    rows = {}
+    good_pure = good_off = 0
+    for name, (ents, pairs) in REAL_ERDS.items():
+        n = len(ents)
+        f, A, m = features(n, pairs)
+        with torch.no_grad():
+            P = model(torch.tensor(f[None], device=device),
+                      torch.tensor(A[None], device=device)).cpu().numpy()[0]
+        model_order = decode_order(P, m)
+        pure_c = fast_crossings(model_order, pairs)
+        off_order, off_c = fast_order(n, pairs, max_passes=refine,
+                                      start=model_order)
+        _opt, teacher_c = teacher(n, pairs)
+        rows[name] = {"n": n, "teacher": teacher_c, "model": pure_c,
+                      "offline": off_c}
+        good_pure += int(pure_c == teacher_c)
+        good_off += int(off_c == teacher_c)
+    k = len(REAL_ERDS)
+    return rows, good_pure / k, good_off / k
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", default="ai/artifacts/ringgnn.pt")
@@ -81,8 +110,20 @@ def main():
     a = ap.parse_args()
     device = "cuda" if torch.cuda.is_available() else "cpu"
     model = load(a.model, device)
-    metrics = {**eval_split(model, a.data, device), **eval_real(model, device)}
-    print(json.dumps(metrics, indent=2))
+    rows, good_pure, good_off = eval_real_erds(model, device, refine=1)
+    metrics = {**eval_split(model, a.data, device), **eval_real(model, device),
+               "real_erds": rows,
+               "real_erd_pure_optimal_rate": round(good_pure, 3),
+               "real_erd_offline_optimal_rate": round(good_off, 3)}
+    print("Real-world ERDs (ERD orang) — crossings model / offline / engine:")
+    for name, r in rows.items():
+        tag = "OK" if r["offline"] == r["teacher"] else "  "
+        print(f"  {name:12} n={r['n']}  model={r['model']:>2}  "
+              f"offline={r['offline']:>2}  engine={r['teacher']:>2}  {tag}")
+    print(f"  -> pure-model optimal: {good_pure*100:.0f}%   "
+          f"offline (model+1-pass polish) optimal: {good_off*100:.0f}%\n")
+    print(json.dumps({k: v for k, v in metrics.items() if k != "real_erds"},
+                     indent=2))
     if metrics["mellogang_label_overlap"] or metrics["mellogang_shape_overlap"]:
         print("WARNING: overlap detected on the real ERD!")
     with open(a.out, "w") as f:

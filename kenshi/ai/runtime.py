@@ -14,7 +14,7 @@ import math
 
 import numpy as np
 
-N_EIG = 4
+N_EIG = 6
 FEAT_DIM = 2 + N_EIG
 
 
@@ -40,7 +40,12 @@ def _features(n, idx_pairs):
     return feat, A
 
 
-def model_order_fn(onnx_path):
+def model_order_fn(onnx_path, polish=2):
+    """Offline 'AI tidy' ordering: the ONNX model proposes the ring order, then a
+    short ``polish``-pass 2-opt (seeded by that order) renders it — reaching the
+    engine's quality without the engine's full search. ``polish=0`` = pure model.
+    Returns None (engine fallback) if onnxruntime / the model file is missing.
+    """
     try:
         import onnxruntime as ort
         import os
@@ -50,6 +55,7 @@ def model_order_fn(onnx_path):
                                     providers=["CPUExecutionProvider"])
     except Exception:
         return None
+    from ..layout.chen import crossing_order
 
     def order_fn(node_ids, pairs):
         n = len(node_ids)
@@ -61,7 +67,9 @@ def model_order_fn(onnx_path):
         feat, A = _features(n, idx_pairs)
         coords = sess.run(None, {"feats": feat[None], "adj": A[None]})[0][0]
         ang = np.arctan2(coords[:, 1], coords[:, 0])
-        order_idx = list(np.argsort(ang))
-        return [node_ids[i] for i in order_idx]
+        order = [node_ids[i] for i in np.argsort(ang)]
+        if polish:
+            order, _ = crossing_order(order, pairs, max_passes=polish)
+        return order
 
     return order_fn

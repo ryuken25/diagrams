@@ -44,17 +44,21 @@ def ring_crossings(order, pairs):
     return c
 
 
-def crossing_order(node_ids, pairs):
-    """Teacher: 2-opt over the cyclic order to minimise chord crossings.
+def crossing_order(node_ids, pairs, max_passes=None):
+    """2-opt over the cyclic order to minimise chord crossings.
 
-    Returns (best_order, best_crossings). Reused by the training pipeline as the
-    distillation target, so the learned model imitates exactly this decision.
+    Seeded by the given ``node_ids`` order (so the offline model can pass its
+    predicted order for a cheap, capped polish). ``max_passes=None`` runs to a
+    local optimum (the deterministic teacher / engine default).
+    Returns (best_order, best_crossings).
     """
     best = list(node_ids)
     best_c = ring_crossings(best, pairs)
+    passes = 0
     improved = True
-    while improved:
+    while improved and (max_passes is None or passes < max_passes):
         improved = False
+        passes += 1
         for i in range(1, len(best) - 1):
             for j in range(i + 1, len(best)):
                 cand = best[:i] + best[i:j + 1][::-1] + best[j + 1:]

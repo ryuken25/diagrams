@@ -1,10 +1,50 @@
 {
-  "test_samples": 1200,
-  "mean_crossing_gap": 6.039166666666667,
-  "optimal_rate": 0.35583333333333333,
-  "within_1_rate": 0.4841666666666667,
+  "test_samples": 3000,
+  "mean_crossing_gap": 1.1036666666666666,
+  "optimal_rate": 0.561,
+  "within_1_rate": 0.7793333333333333,
   "mellogang_label_overlap": 0,
   "mellogang_shape_overlap": 0,
-  "mellogang_model_crossings": 2,
-  "mellogang_teacher_crossings": 0
+  "mellogang_model_crossings": 3,
+  "mellogang_teacher_crossings": 0,
+  "real_erds": {
+    "northwind": {
+      "n": 8,
+      "teacher": 0,
+      "model": 0,
+      "offline": 0
+    },
+    "library": {
+      "n": 7,
+      "teacher": 0,
+      "model": 0,
+      "offline": 0
+    },
+    "hospital": {
+      "n": 7,
+      "teacher": 0,
+      "model": 0,
+      "offline": 0
+    },
+    "school": {
+      "n": 7,
+      "teacher": 0,
+      "model": 0,
+      "offline": 0
+    },
+    "online_shop": {
+      "n": 8,
+      "teacher": 0,
+      "model": 0,
+      "offline": 0
+    },
+    "sakila": {
+      "n": 9,
+      "teacher": 0,
+      "model": 0,
+      "offline": 0
+    }
+  },
+  "real_erd_pure_optimal_rate": 1.0,
+  "real_erd_offline_optimal_rate": 1.0
 }

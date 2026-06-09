@@ -108,9 +108,16 @@ graphs laid out by the engine (the teacher). The real reference diagrams are the
 
 | metric | value |
 |---|---|
-| test mean crossing‑gap vs engine | **+6.0** (random ≈ +30) |
-| reproduces engine's optimum exactly | **35.6 %** (within‑1: 48.4 %) |
+| **real‑world ERDs optimal** (Sakila, Northwind, library, hospital, school, online‑shop) | **100 %** (6/6) |
+| synthetic test: reproduces engine's optimum exactly | **56 %** (within‑1: **78 %**) |
+| synthetic test mean crossing‑gap vs engine | **+1.1** (random ≈ +30) |
 | MellogangVisuals ERD overlaps | **0 label / 0 shape** |
+
+Trained on the realistic academic‑ERD distribution (3–9 entities, sparse FK
+graphs) and selected on the crossing metric directly (the Gram loss is only a
+proxy). Evaluated against **real third‑party ERDs** (`ai/real_erds.py`) — the
+model reproduces the engine's optimal ordering on **all** of them. The offline
+path then applies a short model‑seeded 2‑opt polish. ONNX↔torch parity ≈ 1e‑7.
 
 > **The trained model and dataset are intentionally NOT committed** (`.gitignore`
 > excludes `ai/artifacts/*` except `metrics.json`). Regenerate with `make train`.
@@ -131,7 +138,15 @@ kenshi/
   content/            mellogang, beauty_salon, generic builders
   ai/runtime.py       offline ONNX ordering predictor (graceful fallback)
 ai/                   training subproject (model NOT committed)
-scripts/              generate_results.py, make_gallery.py
+scripts/              generate_results.py, make_gallery.py, generate_mono.py
 result/               with/ + without/ — the editable deliverables
+generated/            MellogangVisuals, monochrome (B/W) + transparent-bg PNGs
 docs/img/             preview gallery
+docs/reference_chelisnet.md   additional DFD style reference
 ```
+
+## `generated/` — monochrome, transparent
+
+`make` target `python scripts/generate_mono.py` writes MellogangVisuals to
+`generated/`: pure **black‑and‑white** `.drawio` + `.graphml`, and **transparent‑background**
+PNGs.
