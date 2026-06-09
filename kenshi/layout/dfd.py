@@ -163,10 +163,16 @@ def _route_ortho(diagram, procs, exts, stores, EXT_X, STORE_X):
             continue
         proc = b if periph is a else a
         dy = proc.cy - periph.cy
-        if dy < -(periph.h / 2 + VS):
-            side = "T"                       # process above -> enter top
+        # Externals are stacked in one left column, so a top/bottom channel would
+        # pierce the neighbouring external boxes -> externals stay facing-side
+        # only. Data stores (right column, short, well spaced) may fan to their
+        # top/bottom for a cleaner, hand-drawn look.
+        if is_ext:
+            side = "F"
+        elif dy < -(periph.h / 2 + VS):
+            side = "T"                       # process above -> enter store top
         elif dy > (periph.h / 2 + VS):
-            side = "B"                       # process below -> enter bottom
+            side = "B"                       # process below -> enter store bottom
         else:
             side = "F"                       # facing side
         info[e.id] = {"proc": proc, "periph": periph, "is_ext": is_ext,

@@ -1,11 +1,11 @@
 {
-  "test_samples": 4000,
-  "mean_crossing_gap": 1.04525,
-  "optimal_rate": 0.607,
-  "within_1_rate": 0.78625,
+  "test_samples": 5000,
+  "mean_crossing_gap": 1.055,
+  "optimal_rate": 0.5572,
+  "within_1_rate": 0.7874,
   "mellogang_label_overlap": 0,
   "mellogang_shape_overlap": 0,
-  "mellogang_model_crossings": 3,
+  "mellogang_model_crossings": 2,
   "mellogang_teacher_crossings": 0,
   "real_erds": {
     "northwind": {
@@ -40,6 +40,78 @@
     },
     "sakila": {
       "n": 9,
+      "teacher": 0,
+      "model": 0,
+      "offline": 0
+    },
+    "chinook": {
+      "n": 8,
+      "teacher": 0,
+      "model": 0,
+      "offline": 0
+    },
+    "classicmodels": {
+      "n": 8,
+      "teacher": 0,
+      "model": 0,
+      "offline": 0
+    },
+    "employees": {
+      "n": 6,
+      "teacher": 0,
+      "model": 0,
+      "offline": 0
+    },
+    "world": {
+      "n": 3,
+      "teacher": 0,
+      "model": 0,
+      "offline": 0
+    },
+    "wordpress": {
+      "n": 7,
+      "teacher": 0,
+      "model": 0,
+      "offline": 0
+    },
+    "blog": {
+      "n": 6,
+      "teacher": 0,
+      "model": 0,
+      "offline": 0
+    },
+    "forum": {
+      "n": 5,
+      "teacher": 0,
+      "model": 0,
+      "offline": 0
+    },
+    "salon": {
+      "n": 7,
+      "teacher": 0,
+      "model": 0,
+      "offline": 0
+    },
+    "inventory": {
+      "n": 7,
+      "teacher": 0,
+      "model": 0,
+      "offline": 0
+    },
+    "restaurant_pos": {
+      "n": 8,
+      "teacher": 0,
+      "model": 0,
+      "offline": 0
+    },
+    "university": {
+      "n": 8,
+      "teacher": 0,
+      "model": 0,
+      "offline": 0
+    },
+    "hr_payroll": {
+      "n": 6,
       "teacher": 0,
       "model": 0,
       "offline": 0

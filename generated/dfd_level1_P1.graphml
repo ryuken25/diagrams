@@ -143,7 +143,7 @@ Edit User</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="69.0" x="1091.2" y="337.3"/>
+          <y:Geometry height="24.0" width="69.0" x="1624.9" y="332.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_user</y:NodeLabel>
@@ -155,7 +155,7 @@ Edit User</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="69.0" x="1164.9" y="369.0"/>
+          <y:Geometry height="24.0" width="69.0" x="1704.1" y="364.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_user</y:NodeLabel>
@@ -167,7 +167,7 @@ Edit User</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="69.0" x="1238.6" y="495.1"/>
+          <y:Geometry height="24.0" width="69.0" x="1189.5" y="492.8"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_user</y:NodeLabel>
@@ -179,7 +179,7 @@ Edit User</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="69.0" x="1312.4" y="526.9"/>
+          <y:Geometry height="24.0" width="69.0" x="1361.5" y="529.2"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_user</y:NodeLabel>
@@ -191,7 +191,7 @@ Edit User</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="69.0" x="1386.1" y="653.0"/>
+          <y:Geometry height="24.0" width="69.0" x="1624.9" y="658.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_user</y:NodeLabel>
@@ -203,7 +203,7 @@ Edit User</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="69.0" x="1459.8" y="684.7"/>
+          <y:Geometry height="24.0" width="69.0" x="1704.1" y="690.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_user</y:NodeLabel>

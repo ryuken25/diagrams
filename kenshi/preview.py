@@ -38,7 +38,14 @@ def _edge_points(e, node):
         sy = a.y + float(e.style["exitY"]) * a.h
         tx = b.x + float(e.style["entryX"]) * b.w
         ty = b.y + float(e.style["entryY"]) * b.h
-        return [(sx, sy)] + [tuple(p) for p in e.waypoints] + [(tx, ty)]
+        pts = [(sx, sy)] + [tuple(p) for p in e.waypoints] + [(tx, ty)]
+        # a fixed port on an ellipse bbox sits off the curve at spread Y; pull the
+        # PROCESS ends onto the actual circle so arrows touch it (like the ref)
+        if a.kind == PROCESS and len(pts) > 1:
+            pts[0] = boundary_point(a, pts[1])
+        if b.kind == PROCESS and len(pts) > 1:
+            pts[-1] = boundary_point(b, pts[-2])
+        return pts
     (sx, sy), (tx, ty) = clip_edge(a, b, pullback=0.0)
     if e.waypoints:
         return [(sx, sy)] + [tuple(p) for p in e.waypoints] + [(tx, ty)]
