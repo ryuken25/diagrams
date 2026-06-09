@@ -25,6 +25,31 @@ from .model import (PROCESS, EXTERNAL, DATASTORE, ENTITY, ATTRIBUTE,
 _EPS = 1.5   # px tolerance for "axis-aligned"
 
 
+def _clip_ellipse(node, port, nbr):
+    """Move an axis-aligned edge end onto the ellipse WITHOUT bending the segment.
+
+    A fixed bbox port sits off the curve; pulling it toward the centre (the old
+    boundary_point) tilted the last segment into a diagonal -> the triangular
+    "fans". Here we intersect the ellipse along the segment's own axis at the
+    port's fixed coordinate, so the run stays straight and the arrow still lands
+    on the circle."""
+    cx, cy = node.center
+    hw, hh = node.w / 2.0, node.h / 2.0
+    if abs(port[1] - nbr[1]) < _EPS and hh:          # horizontal approach
+        rel = (port[1] - cy) / hh
+        if abs(rel) >= 1.0:
+            return port
+        x = cx + (1.0 if nbr[0] >= cx else -1.0) * hw * math.sqrt(1 - rel * rel)
+        return (x, port[1])
+    if abs(port[0] - nbr[0]) < _EPS and hw:          # vertical approach
+        rel = (port[0] - cx) / hw
+        if abs(rel) >= 1.0:
+            return port
+        y = cy + (1.0 if nbr[1] >= cy else -1.0) * hh * math.sqrt(1 - rel * rel)
+        return (port[0], y)
+    return boundary_point(node, nbr)
+
+
 def _edge_points(e, node):
     """Full polyline (screen coords) from the source perimeter to the target.
 
@@ -39,12 +64,12 @@ def _edge_points(e, node):
         tx = b.x + float(e.style["entryX"]) * b.w
         ty = b.y + float(e.style["entryY"]) * b.h
         pts = [(sx, sy)] + [tuple(p) for p in e.waypoints] + [(tx, ty)]
-        # a fixed port on an ellipse bbox sits off the curve at spread Y; pull the
-        # PROCESS ends onto the actual circle so arrows touch it (like the ref)
+        # a fixed port on an ellipse bbox sits off the curve; clip PROCESS ends
+        # onto the circle ALONG the segment axis so the run stays straight
         if a.kind == PROCESS and len(pts) > 1:
-            pts[0] = boundary_point(a, pts[1])
+            pts[0] = _clip_ellipse(a, pts[0], pts[1])
         if b.kind == PROCESS and len(pts) > 1:
-            pts[-1] = boundary_point(b, pts[-2])
+            pts[-1] = _clip_ellipse(b, pts[-1], pts[-2])
         return pts
     (sx, sy), (tx, ty) = clip_edge(a, b, pullback=0.0)
     if e.waypoints:
