@@ -49,10 +49,8 @@ def build_set(order_fn):
     out["beautysalon_erd_crowsfoot"] = beauty_salon.build_erd_crowsfoot()
     out["beautysalon_diagram_konteks"] = beauty_salon.build_context()
     out["beautysalon_dfd_level0"] = beauty_salon.build_dfd0()
-    out["sd3_erd_chen"] = sd3.build_erd_chen(order_fn=order_fn)
-    out["sd3_erd_crowsfoot"] = sd3.build_erd_crowsfoot()
-    out["sd3_diagram_konteks"] = sd3.build_context()
     out["sd3_dfd_level0"] = sd3.build_dfd0()
+    out["sd3_erd_crowsfoot"] = sd3.build_erd_crowsfoot()
     return out
 
 

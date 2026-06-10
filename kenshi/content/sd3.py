@@ -1,10 +1,12 @@
 """SDN 3 Mekarsari — Sistem Informasi Manajemen Nilai Siswa (ryuken25/sd3).
 
-A third real CodeIgniter-4 app driven straight through the importer: a primary
-school student-grade system (multi-role auth, tahun ajaran / kelas / siswa /
-guru / mapel / KKM, input nilai, remedial, rapor, dashboard orang tua). The ERD
-is reconstructed from the migrations; the DFD context / Level-0 are authored from
-the documented domain.
+A primary-school student-grade system (CodeIgniter 4). The migration history
+goes through several consolidations, leaving a few orphan tables that the app no
+longer uses (grades folded into ``nilai``, wali into ``siswa``). The authoritative
+schema is the set of tables the app's Models actually bind to — 12 tables — so we
+reconstruct from the migrations and then keep only those 12.
+
+Only the two diagrams requested are built: DFD Level 0 + ERD Crow's Foot.
 """
 from __future__ import annotations
 
@@ -18,80 +20,44 @@ APP_DIR = os.environ.get(
     os.path.join(os.path.dirname(__file__), "..", "..", "..", "_sd3"))
 MIGRATIONS = os.path.join(APP_DIR, "app", "Database", "Migrations")
 
-CHEN_TITLE = "Entity Relationship Diagram (Chen) — SI Nilai Siswa SDN 3 Mekarsari"
 CF_TITLE = "Entity Relationship Diagram (Crow's Foot) — SI Nilai Siswa SDN 3 Mekarsari"
 
-# nicer Indonesian verbs for the relationship diamonds (parent -verb-> child)
+# The 12 tables the app's Models bind to (the live schema; orphan tables left by
+# the consolidation migrations — wali_siswa / nilai_harian / nilai_ujian — are
+# excluded).
+ACTIVE = ["users", "tahun_ajaran", "kelas", "mata_pelajaran", "mapel_kelas",
+          "siswa", "kkm", "nilai", "nilai_aktivitas", "rapor",
+          "request_buka_nilai", "master_referensi"]
+
 VERBS = {
-    "kelas": "memiliki", "siswa": "terdaftar di",
-    "id_kelas": "berada di", "id_siswa": "milik",
-    "id_mapel": "untuk", "id_tahun_ajaran": "pada",
-    "id_user": "dikelola", "id_wali_siswa": "diwakili",
-    "id_nilai_akhir": "diremedial", "id_master_cp": "mengacu",
+    "id_kelas": "berada di", "id_siswa": "milik", "id_mapel": "untuk",
+    "id_tahun_ajaran": "pada", "id_user": "dikelola", "id_kkm": "mengacu",
+    "id_mapel_kelas": "diampu", "id_referensi": "merujuk",
 }
 
 
 def _schema():
     s = import_ci4_migrations(MIGRATIONS)
-    # drop dead tables left empty by the consolidation migrations
-    for name in [n for n, t in s.tables.items() if not t.cols]:
-        s.tables.pop(name, None)
-    return s.prune()
+    keep = {n: s.tables[n] for n in ACTIVE if n in s.tables}
+    return type(s)(tables=keep).prune()
 
 
-# Core academic entities for a readable ERD. The radial Chen layout stays legible
-# with <=10 entities (which also matches the ordering model's range); the
-# master/junction/secondary tables are carried by the full crow's-foot ERD.
-_CORE = ["users", "tahun_ajaran", "kelas", "mata_pelajaran", "siswa", "kkm",
-         "wali_siswa", "nilai_siswa", "rapor"]
-
-
-def _subset(schema, names):
-    keep = {n: schema.tables[n] for n in names if n in schema.tables}
-    sub = type(schema)(tables=keep)
-    return sub.prune()
-
-
-def build_erd_chen(order_fn=None, full=False):
-    s = _schema() if full else _subset(_schema(), _CORE)
-    return generic.build_erd_chen(
-        "ERD Chen (SD3)", CHEN_TITLE, s.entities(),
-        s.relationships(VERBS), order_fn=order_fn)
-
-
-def build_erd_crowsfoot(full=True):
-    s = _schema() if full else _subset(_schema(), _CORE)
+def build_erd_crowsfoot():
+    s = _schema()
     return generic.build_erd_crowsfoot(
         "ERD Crow's Foot (SD3)", CF_TITLE, s.entities(), s.relationships(VERBS))
 
 
-# ── DFD content (authored from the documented domain) ────────────────────────
+# ── DFD Level 0 (authored from the documented domain, 12-table schema) ───────
 SYSTEM = "Sistem Informasi Manajemen Nilai Siswa SDN 3 Mekarsari"
 
 STORE_NAMES = {
     "D1": "D1  users", "D2": "D2  tahun_ajaran", "D3": "D3  kelas",
-    "D4": "D4  mata_pelajaran", "D5": "D5  siswa", "D6": "D6  kkm",
-    "D7": "D7  nilai", "D8": "D8  rapor", "D9": "D9  remedial",
-    "D10": "D10  request_buka_nilai",
+    "D4": "D4  mata_pelajaran", "D5": "D5  mapel_kelas", "D6": "D6  siswa",
+    "D7": "D7  kkm", "D8": "D8  nilai", "D9": "D9  nilai_aktivitas",
+    "D10": "D10  rapor", "D11": "D11  request_buka_nilai",
+    "D12": "D12  master_referensi",
 }
-
-
-def build_context():
-    flows = [
-        ("Admin", "SYS", "Data master & akun"),
-        ("Admin", "SYS", "Atur tahun ajaran & kelas"),
-        ("SYS", "Admin", "Laporan & rekap nilai"),
-        ("Guru", "SYS", "Login & input nilai"),
-        ("Guru", "SYS", "Pengajuan buka nilai"),
-        ("SYS", "Guru", "Daftar siswa & KKM"),
-        ("SYS", "Guru", "Status nilai & rapor"),
-        ("Orang_Tua", "SYS", "Login wali siswa"),
-        ("SYS", "Orang_Tua", "Rapor & nilai anak"),
-    ]
-    return generic.build_context(
-        "Diagram Konteks (SD3)",
-        "Diagram Konteks (Diagram 0) — SI Nilai Siswa SDN 3 Mekarsari",
-        "0\n" + SYSTEM, ["Admin", "Guru", "Orang_Tua"], flows)
 
 
 def build_dfd0():
@@ -105,7 +71,7 @@ def build_dfd0():
             ("P2", "P2.0\nKelola Data Master"),
             ("P3", "P3.0\nKelola Data Siswa"),
             ("P4", "P4.0\nInput & Kelola Nilai"),
-            ("P5", "P5.0\nRemedial &\nBuka Nilai"),
+            ("P5", "P5.0\nBuka Nilai"),
             ("P6", "P6.0\nGenerate Rapor"),
         ],
         "ext": {
@@ -113,11 +79,11 @@ def build_dfd0():
                    ("Guru", [("Data login", "to"), ("Status sesi", "from")])],
             "P2": [("Admin", [("Data tahun ajaran, kelas, mapel & KKM", "to"),
                               ("Info data master", "from")])],
-            "P3": [("Admin", [("Data siswa & wali", "to")]),
+            "P3": [("Admin", [("Data siswa", "to")]),
                    ("Guru", [("Daftar siswa kelas", "from")])],
-            "P4": [("Guru", [("Input nilai harian & ujian", "to"),
+            "P4": [("Guru", [("Input nilai & aktivitas", "to"),
                              ("Rekap nilai", "from")])],
-            "P5": [("Guru", [("Data remedial & pengajuan buka nilai", "to")]),
+            "P5": [("Guru", [("Pengajuan buka nilai", "to")]),
                    ("Admin", [("Persetujuan buka nilai", "to")])],
             "P6": [("Guru", [("Validasi rapor", "to")]),
                    ("Orang_Tua", [("Permintaan rapor", "to"),
@@ -128,17 +94,20 @@ def build_dfd0():
             "P2": [("D2", "", [("Data tahun ajaran", "to"), ("Info tahun ajaran", "from")]),
                    ("D3", "", [("Data kelas", "to")]),
                    ("D4", "", [("Data mapel", "to")]),
-                   ("D6", "", [("Data KKM", "to"), ("Info KKM", "from")])],
-            "P3": [("D5", "", [("Data siswa", "to"), ("Info siswa", "from")])],
-            "P4": [("D7", "", [("Simpan nilai", "to"), ("Baca nilai", "from")]),
-                   ("D5", "", [("Data siswa", "from")]),
-                   ("D6", "", [("Baca KKM", "from")])],
-            "P5": [("D9", "", [("Data remedial", "to")]),
-                   ("D10", "", [("Pengajuan buka nilai", "to"),
+                   ("D5", "", [("Data mapel-kelas", "to")]),
+                   ("D7", "", [("Data KKM", "to"), ("Info KKM", "from")]),
+                   ("D12", "", [("Data referensi", "to"), ("Info referensi", "from")])],
+            "P3": [("D6", "", [("Data siswa", "to"), ("Info siswa", "from")])],
+            "P4": [("D8", "", [("Simpan nilai", "to"), ("Baca nilai", "from")]),
+                   ("D9", "", [("Simpan nilai aktivitas", "to")]),
+                   ("D6", "", [("Data siswa", "from")]),
+                   ("D7", "", [("Baca KKM", "from")])],
+            "P5": [("D11", "", [("Pengajuan buka nilai", "to"),
                                 ("Status pengajuan", "from")]),
-                   ("D7", "", [("Update nilai", "to")])],
-            "P6": [("D8", "", [("Simpan rapor", "to"), ("Baca rapor", "from")]),
-                   ("D7", "", [("Baca nilai akhir", "from")])],
+                   ("D8", "", [("Update status nilai", "to")])],
+            "P6": [("D10", "", [("Simpan rapor", "to"), ("Baca rapor", "from")]),
+                   ("D8", "", [("Baca nilai", "from")]),
+                   ("D9", "", [("Baca nilai aktivitas", "from")])],
         },
     }
     return generic.build_dfd_ortho(data)
@@ -146,8 +115,6 @@ def build_dfd0():
 
 def build_all():
     return {
-        "diagram_konteks": build_context(),
         "dfd_level0": build_dfd0(),
-        "erd_chen": build_erd_chen(),
         "erd_crowsfoot": build_erd_crowsfoot(),
     }

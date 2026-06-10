@@ -65,7 +65,6 @@ Input &amp; Kelola Nilai</y:NodeLabel>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
           <y:NodeLabel fontSize="12" fontStyle="bold" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">P5.0
-Remedial &amp;
 Buka Nilai</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
@@ -172,10 +171,10 @@ Generate Rapor</y:NodeLabel>
       <data key="d_kind">datastore</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="48.0" width="210.0" x="1594.0" y="801.0"/>
+          <y:Geometry height="48.0" width="210.0" x="1594.0" y="781.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">D6  kkm</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">D5  mapel_kelas</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -184,10 +183,10 @@ Generate Rapor</y:NodeLabel>
       <data key="d_kind">datastore</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="48.0" width="210.0" x="1594.0" y="952.0"/>
+          <y:Geometry height="48.0" width="210.0" x="1594.0" y="969.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">D5  siswa</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">D7  kkm</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -196,10 +195,10 @@ Generate Rapor</y:NodeLabel>
       <data key="d_kind">datastore</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="48.0" width="210.0" x="1594.0" y="1405.0"/>
+          <y:Geometry height="48.0" width="210.0" x="1594.0" y="875.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">D7  nilai</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">D12  master_referensi</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -208,10 +207,10 @@ Generate Rapor</y:NodeLabel>
       <data key="d_kind">datastore</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="48.0" width="210.0" x="1594.0" y="1499.0"/>
+          <y:Geometry height="48.0" width="210.0" x="1594.0" y="1063.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">D9  remedial</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">D6  siswa</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -220,10 +219,10 @@ Generate Rapor</y:NodeLabel>
       <data key="d_kind">datastore</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="48.0" width="210.0" x="1594.0" y="1593.0"/>
+          <y:Geometry height="48.0" width="210.0" x="1594.0" y="1405.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">D10  request_buka_nilai</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">D8  nilai</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -232,15 +231,39 @@ Generate Rapor</y:NodeLabel>
       <data key="d_kind">datastore</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="48.0" width="210.0" x="1594.0" y="1707.0"/>
+          <y:Geometry height="48.0" width="210.0" x="1594.0" y="1499.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">D8  rapor</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">D9  nilai_aktivitas</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
     </node>
     <node id="n19">
+      <data key="d_kind">datastore</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="48.0" width="210.0" x="1594.0" y="1593.0"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">D11  request_buka_nilai</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n20">
+      <data key="d_kind">datastore</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="48.0" width="210.0" x="1594.0" y="1707.0"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">D10  rapor</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n21">
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
@@ -252,7 +275,7 @@ Generate Rapor</y:NodeLabel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n20">
+    <node id="n22">
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
@@ -264,7 +287,7 @@ Generate Rapor</y:NodeLabel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n21">
+    <node id="n23">
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
@@ -276,7 +299,7 @@ Generate Rapor</y:NodeLabel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n22">
+    <node id="n24">
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
@@ -288,19 +311,19 @@ Generate Rapor</y:NodeLabel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n23">
+    <node id="n25">
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="107.0" x="564.8" y="762.0"/>
+          <y:Geometry height="24.0" width="76.0" x="580.3" y="762.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_siswa_wali</y:NodeLabel>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_siswa</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n24">
+    <node id="n26">
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
@@ -312,7 +335,7 @@ Generate Rapor</y:NodeLabel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n25">
+    <node id="n27">
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
@@ -324,7 +347,7 @@ Generate Rapor</y:NodeLabel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n26">
+    <node id="n28">
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
@@ -336,7 +359,7 @@ Generate Rapor</y:NodeLabel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n27">
+    <node id="n29">
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
@@ -348,7 +371,7 @@ Generate Rapor</y:NodeLabel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n28">
+    <node id="n30">
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
@@ -360,7 +383,7 @@ Generate Rapor</y:NodeLabel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n29">
+    <node id="n31">
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
@@ -372,7 +395,7 @@ Generate Rapor</y:NodeLabel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n30">
+    <node id="n32">
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
@@ -384,38 +407,14 @@ Generate Rapor</y:NodeLabel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n31">
-      <data key="d_kind">label</data>
-      <data key="d_node">
-        <y:ShapeNode>
-          <y:Geometry height="24.0" width="156.0" x="224.6" y="1017.6"/>
-          <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_nilai_harian_ujian</y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n32">
-      <data key="d_kind">label</data>
-      <data key="d_node">
-        <y:ShapeNode>
-          <y:Geometry height="24.0" width="113.0" x="296.0" y="1047.2"/>
-          <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_rekap_nilai</y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
     <node id="n33">
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="187.0" x="245.2" y="1077.5"/>
+          <y:Geometry height="24.0" width="138.0" x="226.0" y="1017.4"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_remedial_pengajuan_buka</y:NodeLabel>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_nilai_aktivitas</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -424,10 +423,10 @@ Generate Rapor</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="69.0" x="440.6" y="1068.5"/>
+          <y:Geometry height="24.0" width="113.0" x="223.0" y="1046.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_guru</y:NodeLabel>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_rekap_nilai</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -436,10 +435,10 @@ Generate Rapor</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="131.0" x="515.0" y="1081.0"/>
+          <y:Geometry height="24.0" width="169.0" x="279.6" y="1076.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_validasi_rapor</y:NodeLabel>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_pengajuan_buka_nilai</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -448,7 +447,7 @@ Generate Rapor</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="69.0" x="653.1" y="1104.1"/>
+          <y:Geometry height="24.0" width="69.0" x="455.6" y="1069.1"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_guru</y:NodeLabel>
@@ -460,6 +459,30 @@ Generate Rapor</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
+          <y:Geometry height="24.0" width="131.0" x="532.5" y="1080.6"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_validasi_rapor</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n38">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="24.0" width="69.0" x="670.6" y="1104.8"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_guru</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n39">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
           <y:Geometry height="24.0" width="76.0" x="433.6" y="1703.8"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
@@ -468,7 +491,7 @@ Generate Rapor</y:NodeLabel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n38">
+    <node id="n40">
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
@@ -480,38 +503,14 @@ Generate Rapor</y:NodeLabel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n39">
-      <data key="d_kind">label</data>
-      <data key="d_node">
-        <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1286.3" y="198.8"/>
-          <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_users</y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n40">
-      <data key="d_kind">label</data>
-      <data key="d_node">
-        <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1369.7" y="219.2"/>
-          <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_users</y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
     <node id="n41">
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="119.0" x="1394.7" y="496.2"/>
+          <y:Geometry height="24.0" width="76.0" x="1278.6" y="198.3"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_tahun_ajaran</y:NodeLabel>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_users</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -520,10 +519,10 @@ Generate Rapor</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="119.0" x="1468.0" y="526.0"/>
+          <y:Geometry height="24.0" width="76.0" x="1361.8" y="219.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_tahun_ajaran</y:NodeLabel>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_users</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -532,10 +531,10 @@ Generate Rapor</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1226.1" y="478.0"/>
+          <y:Geometry height="24.0" width="119.0" x="1413.6" y="499.1"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_kelas</y:NodeLabel>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_tahun_ajaran</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -544,10 +543,10 @@ Generate Rapor</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1308.9" y="504.6"/>
+          <y:Geometry height="24.0" width="119.0" x="1469.6" y="528.5"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_kelas</y:NodeLabel>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_tahun_ajaran</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -556,10 +555,10 @@ Generate Rapor</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="131.0" x="1171.0" y="521.3"/>
+          <y:Geometry height="24.0" width="76.0" x="1281.7" y="458.4"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_mata_pelajaran</y:NodeLabel>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_kelas</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -568,10 +567,10 @@ Generate Rapor</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="131.0" x="1329.0" y="540.9"/>
+          <y:Geometry height="24.0" width="76.0" x="1366.0" y="470.1"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_mata_pelajaran</y:NodeLabel>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_kelas</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -580,10 +579,10 @@ Generate Rapor</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="63.0" x="1257.5" y="559.3"/>
+          <y:Geometry height="24.0" width="131.0" x="1136.7" y="486.8"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_kkm</y:NodeLabel>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_mata_pelajaran</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -592,10 +591,10 @@ Generate Rapor</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="63.0" x="1343.1" y="578.0"/>
+          <y:Geometry height="24.0" width="131.0" x="1276.7" y="499.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_kkm</y:NodeLabel>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_mata_pelajaran</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -604,10 +603,10 @@ Generate Rapor</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="63.0" x="1285.0" y="1052.9"/>
+          <y:Geometry height="24.0" width="113.0" x="1154.7" y="517.6"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_kkm</y:NodeLabel>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_mapel_kelas</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -616,7 +615,19 @@ Generate Rapor</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="63.0" x="1355.5" y="1079.0"/>
+          <y:Geometry height="24.0" width="113.0" x="1334.0" y="530.4"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_mapel_kelas</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n51">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="24.0" width="63.0" x="1268.3" y="577.6"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_kkm</y:NodeLabel>
@@ -624,7 +635,67 @@ Generate Rapor</y:NodeLabel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n51">
+    <node id="n52">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="24.0" width="63.0" x="1341.1" y="588.9"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_kkm</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n53">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="24.0" width="63.0" x="1272.5" y="1046.6"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_kkm</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n54">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="24.0" width="63.0" x="1345.5" y="1070.1"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_kkm</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n55">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="24.0" width="144.0" x="1184.9" y="548.0"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_master_referensi</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n56">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="24.0" width="144.0" x="1379.4" y="559.8"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_master_referensi</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n57">
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
@@ -636,7 +707,7 @@ Generate Rapor</y:NodeLabel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n52">
+    <node id="n58">
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
@@ -648,86 +719,14 @@ Generate Rapor</y:NodeLabel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n53">
-      <data key="d_kind">label</data>
-      <data key="d_node">
-        <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1268.5" y="1102.7"/>
-          <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_siswa</y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n54">
-      <data key="d_kind">label</data>
-      <data key="d_node">
-        <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1351.5" y="1127.1"/>
-          <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_siswa</y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n55">
-      <data key="d_kind">label</data>
-      <data key="d_node">
-        <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1261.0" y="1150.9"/>
-          <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_nilai</y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n56">
-      <data key="d_kind">label</data>
-      <data key="d_node">
-        <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1344.0" y="1177.4"/>
-          <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_nilai</y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n57">
-      <data key="d_kind">label</data>
-      <data key="d_node">
-        <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1124.5" y="1353.6"/>
-          <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_nilai</y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n58">
-      <data key="d_kind">label</data>
-      <data key="d_node">
-        <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1182.8" y="1382.8"/>
-          <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_nilai</y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
     <node id="n59">
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1290.9" y="1668.0"/>
+          <y:Geometry height="24.0" width="76.0" x="1414.8" y="1066.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_nilai</y:NodeLabel>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_siswa</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -736,10 +735,10 @@ Generate Rapor</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1326.6" y="1702.0"/>
+          <y:Geometry height="24.0" width="76.0" x="1141.7" y="1105.5"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_nilai</y:NodeLabel>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_siswa</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -748,10 +747,10 @@ Generate Rapor</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="94.0" x="1267.0" y="1403.2"/>
+          <y:Geometry height="24.0" width="76.0" x="1273.5" y="1123.1"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_remedial</y:NodeLabel>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_nilai</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -760,10 +759,10 @@ Generate Rapor</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="94.0" x="1367.4" y="1429.6"/>
+          <y:Geometry height="24.0" width="76.0" x="1364.0" y="1143.5"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_remedial</y:NodeLabel>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_nilai</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -772,10 +771,10 @@ Generate Rapor</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="156.0" x="1176.1" y="1451.9"/>
+          <y:Geometry height="24.0" width="76.0" x="1165.2" y="1366.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_request_buka_nilai</y:NodeLabel>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_nilai</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -784,10 +783,10 @@ Generate Rapor</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="156.0" x="1336.5" y="1481.0"/>
+          <y:Geometry height="24.0" width="76.0" x="1188.6" y="1400.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_request_buka_nilai</y:NodeLabel>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_nilai</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -796,10 +795,10 @@ Generate Rapor</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1201.7" y="1736.0"/>
+          <y:Geometry height="24.0" width="76.0" x="1273.5" y="1656.5"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_rapor</y:NodeLabel>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_nilai</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -808,7 +807,103 @@ Generate Rapor</y:NodeLabel>
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="24.0" width="76.0" x="1230.3" y="1770.0"/>
+          <y:Geometry height="24.0" width="76.0" x="1363.9" y="1682.8"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_nilai</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n67">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="24.0" width="138.0" x="1195.0" y="1161.1"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_nilai_aktivitas</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n68">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="24.0" width="138.0" x="1340.5" y="1183.5"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_nilai_aktivitas</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n69">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="24.0" width="138.0" x="1195.1" y="1705.3"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_nilai_aktivitas</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n70">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="24.0" width="138.0" x="1340.5" y="1734.2"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_nilai_aktivitas</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n71">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="24.0" width="156.0" x="1250.9" y="1434.0"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_request_buka_nilai</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n72">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="24.0" width="156.0" x="1286.6" y="1468.0"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_request_buka_nilai</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n73">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="24.0" width="76.0" x="1197.3" y="1752.8"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">data_rapor</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n74">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="24.0" width="76.0" x="1250.3" y="1782.3"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="10" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">info_rapor</y:NodeLabel>
@@ -816,7 +911,7 @@ Generate Rapor</y:NodeLabel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n67">
+    <node id="n75">
       <data key="d_kind">title</data>
       <data key="d_node">
         <y:ShapeNode>
@@ -1098,7 +1193,7 @@ Generate Rapor</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e30" source="n13" target="n3">
+    <edge id="e30" source="n1" target="n14">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1107,7 +1202,7 @@ Generate Rapor</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e31" source="n3" target="n13">
+    <edge id="e31" source="n14" target="n1">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1116,7 +1211,7 @@ Generate Rapor</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e32" source="n2" target="n14">
+    <edge id="e32" source="n14" target="n3">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1125,7 +1220,7 @@ Generate Rapor</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e33" source="n14" target="n2">
+    <edge id="e33" source="n3" target="n14">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1134,7 +1229,7 @@ Generate Rapor</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e34" source="n14" target="n3">
+    <edge id="e34" source="n1" target="n15">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1143,7 +1238,7 @@ Generate Rapor</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e35" source="n3" target="n14">
+    <edge id="e35" source="n15" target="n1">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1152,7 +1247,7 @@ Generate Rapor</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e36" source="n3" target="n15">
+    <edge id="e36" source="n2" target="n16">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1161,7 +1256,7 @@ Generate Rapor</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e37" source="n15" target="n3">
+    <edge id="e37" source="n16" target="n2">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1170,7 +1265,7 @@ Generate Rapor</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e38" source="n4" target="n15">
+    <edge id="e38" source="n16" target="n3">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1179,7 +1274,7 @@ Generate Rapor</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e39" source="n15" target="n4">
+    <edge id="e39" source="n3" target="n16">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1188,7 +1283,7 @@ Generate Rapor</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e40" source="n15" target="n5">
+    <edge id="e40" source="n3" target="n17">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1197,7 +1292,7 @@ Generate Rapor</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e41" source="n5" target="n15">
+    <edge id="e41" source="n17" target="n3">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1206,7 +1301,7 @@ Generate Rapor</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e42" source="n4" target="n16">
+    <edge id="e42" source="n4" target="n17">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1215,7 +1310,7 @@ Generate Rapor</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e43" source="n16" target="n4">
+    <edge id="e43" source="n17" target="n4">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1224,7 +1319,7 @@ Generate Rapor</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e44" source="n4" target="n17">
+    <edge id="e44" source="n17" target="n5">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1233,7 +1328,7 @@ Generate Rapor</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e45" source="n17" target="n4">
+    <edge id="e45" source="n5" target="n17">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1242,7 +1337,7 @@ Generate Rapor</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e46" source="n5" target="n18">
+    <edge id="e46" source="n3" target="n18">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1251,7 +1346,61 @@ Generate Rapor</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e47" source="n18" target="n5">
+    <edge id="e47" source="n18" target="n3">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e48" source="n18" target="n5">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e49" source="n5" target="n18">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e50" source="n4" target="n19">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e51" source="n19" target="n4">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e52" source="n5" target="n20">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e53" source="n20" target="n5">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>

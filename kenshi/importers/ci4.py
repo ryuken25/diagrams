@@ -87,8 +87,12 @@ def _bracket_after(text: str, start: int) -> str:
 
 
 def _up_body(src: str) -> str:
-    """Extract just the up() method body (ignore down())."""
-    m = re.search(r"function\s+up\s*\(\s*\)\s*\{", src)
+    """Extract just the up() method body (ignore down()).
+
+    Tolerates modern CI4 signatures with a return type — ``up(): void {`` — so
+    the down() rollback (which re-creates dropped tables) is never replayed.
+    """
+    m = re.search(r"function\s+up\s*\(\s*\)\s*(?::\s*[\w\\?]+\s*)?\{", src)
     if not m:
         return src
     i = m.end()
