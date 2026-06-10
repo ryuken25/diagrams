@@ -15,7 +15,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from kenshi.content import mellogang, beauty_salon
+from kenshi.content import mellogang, beauty_salon, sd3
 from kenshi.export import to_drawio, to_graphml
 from kenshi.metrics import label_overlaps, shape_overlaps, edge_crossings
 from kenshi.preview import render
@@ -49,6 +49,10 @@ def build_set(order_fn):
     out["beautysalon_erd_crowsfoot"] = beauty_salon.build_erd_crowsfoot()
     out["beautysalon_diagram_konteks"] = beauty_salon.build_context()
     out["beautysalon_dfd_level0"] = beauty_salon.build_dfd0()
+    out["sd3_erd_chen"] = sd3.build_erd_chen(order_fn=order_fn)
+    out["sd3_erd_crowsfoot"] = sd3.build_erd_crowsfoot()
+    out["sd3_diagram_konteks"] = sd3.build_context()
+    out["sd3_dfd_level0"] = sd3.build_dfd0()
     return out
 
 

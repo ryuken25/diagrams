@@ -7,7 +7,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from kenshi.content import build_all
-from kenshi.content import beauty_salon
+from kenshi.content import beauty_salon, sd3
 from kenshi.preview import render
 
 OUT = os.path.join("docs", "img")
@@ -15,7 +15,8 @@ OUT = os.path.join("docs", "img")
 
 def main():
     os.makedirs(OUT, exist_ok=True)
-    sets = {"mellogang": build_all(), "beautysalon": beauty_salon.build_all()}
+    sets = {"mellogang": build_all(), "beautysalon": beauty_salon.build_all(),
+            "sd3": sd3.build_all()}
     for proj, ds in sets.items():
         for name, d in ds.items():
             short = name.replace("bs_", "")

@@ -3,12 +3,12 @@
   <key for="node" id="d_node" yfiles.type="nodegraphics"/>
   <key for="edge" id="d_edge" yfiles.type="edgegraphics"/>
   <key for="node" attr.name="kind" attr.type="string" id="d_kind"/>
-  <graph edgedefault="directed" id="ERD Chen (Beauty Salon)">
+  <graph edgedefault="directed" id="ERD Chen (SD3)">
     <node id="n0">
       <data key="d_kind">entity</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="52.0" width="120.0" x="1047.8" y="728.6"/>
+          <y:Geometry height="52.0" width="120.0" x="1452.9" y="837.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
           <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">users</y:NodeLabel>
@@ -20,10 +20,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="737.2" y="456.9"/>
+          <y:Geometry height="42.0" width="96.0" x="1139.4" y="296.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" underlinedText="true" modelName="internal" modelPosition="c" autoSizePolicy="content">id</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" underlinedText="true" modelName="internal" modelPosition="c" autoSizePolicy="content">id_user</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -32,10 +32,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="697.6" y="354.3"/>
+          <y:Geometry height="42.0" width="96.0" x="1108.3" y="191.4"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">email</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">username</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -44,10 +44,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="118.0" x="884.7" y="412.0"/>
+          <y:Geometry height="42.0" width="96.0" x="1300.5" y="261.8"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">password_hash</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">password</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -56,10 +56,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="875.6" y="303.9"/>
+          <y:Geometry height="42.0" width="111.0" x="1277.3" y="152.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">nama</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">nama_lengkap</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -68,10 +68,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="1059.8" y="396.9"/>
+          <y:Geometry height="42.0" width="96.0" x="1464.9" y="250.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">role</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">no_telp</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -80,10 +80,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="1059.8" y="286.9"/>
+          <y:Geometry height="42.0" width="96.0" x="1464.9" y="140.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">is_active</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">level</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -92,10 +92,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="1223.9" y="412.0"/>
+          <y:Geometry height="42.0" width="96.0" x="1629.3" y="261.8"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">created_at</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">status</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -104,10 +104,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="1244.0" y="303.9"/>
+          <y:Geometry height="42.0" width="96.0" x="1645.0" y="152.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">updated_at</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">created_at</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -116,10 +116,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="1382.4" y="456.9"/>
+          <y:Geometry height="42.0" width="96.0" x="1790.4" y="296.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">nomor_hp</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">updated_at</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -128,10 +128,10 @@
       <data key="d_kind">entity</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="52.0" width="120.0" x="1593.8" y="1413.2"/>
+          <y:Geometry height="52.0" width="126.0" x="1258.4" y="1924.1"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">layanan</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">tahun_ajaran</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -140,10 +140,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="1940.3" y="1166.3"/>
+          <y:Geometry height="42.0" width="133.0" x="1374.0" y="2553.5"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" underlinedText="true" modelName="internal" modelPosition="c" autoSizePolicy="content">id</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" underlinedText="true" modelName="internal" modelPosition="c" autoSizePolicy="content">id_tahun_ajaran</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -152,10 +152,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="2056.1" y="1149.5"/>
+          <y:Geometry height="42.0" width="111.0" x="1378.1" y="2663.3"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">nama</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">tahun_ajaran</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -164,10 +164,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="2171.9" y="1132.8"/>
+          <y:Geometry height="42.0" width="96.0" x="1229.1" y="2531.4"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">kategori</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">semester</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -176,10 +176,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="1941.8" y="1329.2"/>
+          <y:Geometry height="42.0" width="96.0" x="1206.6" y="2639.1"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">deskripsi</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">aktif</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -188,10 +188,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="111.0" x="2058.2" y="1334.2"/>
+          <y:Geometry height="42.0" width="141.0" x="1048.1" y="2486.3"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">durasi_menit</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">status_pengisian</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -200,10 +200,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="2189.6" y="1339.3"/>
+          <y:Geometry height="42.0" width="118.0" x="1022.0" y="2589.6"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">harga</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">tanggal_mulai</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -212,10 +212,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="1927.2" y="1491.6"/>
+          <y:Geometry height="42.0" width="133.0" x="901.6" y="2419.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">ikon</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">tanggal_selesai</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -224,10 +224,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="2041.3" y="1517.6"/>
+          <y:Geometry height="42.0" width="96.0" x="868.1" y="2515.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">is_active</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">created_at</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -236,19 +236,7 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="2155.3" y="1543.6"/>
-          <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">created_at</y:NodeLabel>
-          <y:Shape type="ellipse"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n20">
-      <data key="d_kind">attribute</data>
-      <data key="d_node">
-        <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="1866.7" y="1642.8"/>
+          <y:Geometry height="42.0" width="96.0" x="780.7" y="2330.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
           <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">updated_at</y:NodeLabel>
@@ -256,14 +244,26 @@
         </y:ShapeNode>
       </data>
     </node>
+    <node id="n20">
+      <data key="d_kind">entity</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="52.0" width="120.0" x="1092.9" y="968.9"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">kelas</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
     <node id="n21">
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="1983.7" y="1693.4"/>
+          <y:Geometry height="42.0" width="96.0" x="504.6" y="764.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">deleted_at</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" underlinedText="true" modelName="internal" modelPosition="c" autoSizePolicy="content">id_kelas</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -272,10 +272,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="2100.7" y="1744.0"/>
+          <y:Geometry height="42.0" width="96.0" x="413.0" y="704.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">gambar</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">nama_kelas</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -284,10 +284,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="111.0" x="1796.2" y="1794.3"/>
+          <y:Geometry height="42.0" width="96.0" x="723.8" y="519.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">promo_persen</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">tingkat</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -296,23 +296,23 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="133.0" x="1876.5" y="1855.7"/>
+          <y:Geometry height="42.0" width="96.0" x="653.1" y="435.5"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">promo_deskripsi</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">wali_kelas</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
     </node>
     <node id="n25">
-      <data key="d_kind">entity</data>
+      <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="52.0" width="120.0" x="1485.6" y="939.4"/>
+          <y:Geometry height="42.0" width="96.0" x="1003.3" y="346.4"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">bookings</y:NodeLabel>
-          <y:Shape type="rectangle"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">created_at</y:NodeLabel>
+          <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
     </node>
@@ -320,23 +320,23 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="1512.8" y="519.7"/>
+          <y:Geometry height="42.0" width="96.0" x="959.3" y="245.6"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" underlinedText="true" modelName="internal" modelPosition="c" autoSizePolicy="content">id</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">updated_at</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
     </node>
     <node id="n27">
-      <data key="d_kind">attribute</data>
+      <data key="d_kind">entity</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="111.0" x="1560.9" y="424.8"/>
+          <y:Geometry height="52.0" width="143.0" x="1926.4" y="1677.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">kode_booking</y:NodeLabel>
-          <y:Shape type="ellipse"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">mata_pelajaran</y:NodeLabel>
+          <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
     </node>
@@ -344,10 +344,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="126.0" x="1608.9" y="329.9"/>
+          <y:Geometry height="42.0" width="96.0" x="2578.7" y="1672.4"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">nama_pelanggan</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" underlinedText="true" modelName="internal" modelPosition="c" autoSizePolicy="content">id_mapel</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -356,10 +356,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="155.0" x="1650.0" y="234.9"/>
+          <y:Geometry height="42.0" width="96.0" x="2699.2" y="1701.5"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">nomor_hp_pelanggan</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">kode_mapel</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -368,10 +368,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="1735.1" y="140.0"/>
+          <y:Geometry height="42.0" width="96.0" x="2457.3" y="1975.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">layanan_id</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">nama_mapel</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -380,10 +380,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="1621.4" y="594.5"/>
+          <y:Geometry height="42.0" width="96.0" x="2564.7" y="2037.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">tanggal</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">kelompok</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -392,10 +392,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="1690.3" y="508.8"/>
+          <y:Geometry height="42.0" width="96.0" x="2260.0" y="2237.8"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">slot_mulai</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">created_at</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -404,23 +404,23 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="111.0" x="1751.7" y="423.0"/>
+          <y:Geometry height="42.0" width="96.0" x="2335.8" y="2317.5"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">slot_selesai</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">updated_at</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
     </node>
     <node id="n34">
-      <data key="d_kind">attribute</data>
+      <data key="d_kind">entity</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="103.0" x="1824.6" y="337.3"/>
+          <y:Geometry height="52.0" width="120.0" x="901.4" y="1300.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">jumlah_slot</y:NodeLabel>
-          <y:Shape type="ellipse"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">siswa</y:NodeLabel>
+          <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
     </node>
@@ -428,10 +428,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="118.0" x="1886.0" y="251.5"/>
+          <y:Geometry height="42.0" width="96.0" x="326.1" y="1530.6"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">harga_layanan</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" underlinedText="true" modelName="internal" modelPosition="c" autoSizePolicy="content">id_siswa</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -440,10 +440,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="1717.9" y="684.5"/>
+          <y:Geometry height="42.0" width="96.0" x="209.9" y="1543.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">status</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">nis</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -452,10 +452,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="1798.6" y="609.8"/>
+          <y:Geometry height="42.0" width="96.0" x="93.6" y="1556.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">sumber</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">nisn</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -464,10 +464,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="1879.3" y="535.0"/>
+          <y:Geometry height="42.0" width="96.0" x="333.0" y="1399.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">catatan</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">nama_siswa</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -476,10 +476,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="1960.0" y="460.3"/>
+          <y:Geometry height="42.0" width="118.0" x="194.5" y="1399.4"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">wa_sent</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">jenis_kelamin</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -488,10 +488,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="111.0" x="2033.3" y="385.6"/>
+          <y:Geometry height="42.0" width="111.0" x="60.0" y="1399.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">verified_via</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">tempat_lahir</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -500,10 +500,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="103.0" x="1796.6" y="787.6"/>
+          <y:Geometry height="42.0" width="118.0" x="322.8" y="1269.6"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">verified_at</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">tanggal_lahir</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -512,10 +512,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="111.0" x="1883.4" y="725.5"/>
+          <y:Geometry height="42.0" width="96.0" x="207.2" y="1254.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">completed_at</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">alamat</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -524,10 +524,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="111.0" x="1974.2" y="663.4"/>
+          <y:Geometry height="42.0" width="96.0" x="91.0" y="1241.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">cancelled_at</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">id_kelas</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -536,10 +536,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="111.0" x="2065.0" y="601.4"/>
+          <y:Geometry height="42.0" width="96.0" x="356.4" y="1141.3"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">cancelled_by</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">nama_ayah</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -548,10 +548,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="141.0" x="2140.8" y="539.3"/>
+          <y:Geometry height="42.0" width="96.0" x="239.2" y="1113.6"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">rejection_reason</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">nama_ibu</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -560,10 +560,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="1822.2" y="923.1"/>
+          <y:Geometry height="42.0" width="111.0" x="104.2" y="1083.5"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">created_at</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">no_telp_ortu</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -572,10 +572,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="1936.9" y="867.3"/>
+          <y:Geometry height="42.0" width="96.0" x="393.6" y="1016.4"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">updated_at</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">status</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -584,10 +584,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="163.0" x="2027.5" y="807.0"/>
+          <y:Geometry height="42.0" width="96.0" x="277.0" y="974.3"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">cancellation_reason</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">created_at</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -596,10 +596,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="133.0" x="2169.8" y="745.1"/>
+          <y:Geometry height="42.0" width="96.0" x="160.3" y="932.2"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">email_pelanggan</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">updated_at</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -608,23 +608,23 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="2312.4" y="684.8"/>
+          <y:Geometry height="42.0" width="96.0" x="432.2" y="890.3"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">user_id</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">password</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
     </node>
     <node id="n51">
-      <data key="d_kind">attribute</data>
+      <data key="d_kind">entity</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="1861.7" y="1041.0"/>
+          <y:Geometry height="52.0" width="120.0" x="2004.4" y="1300.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">dp_amount</y:NodeLabel>
-          <y:Shape type="ellipse"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">kkm</y:NodeLabel>
+          <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
     </node>
@@ -632,10 +632,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="118.0" x="1978.9" y="1000.6"/>
+          <y:Geometry height="42.0" width="96.0" x="2488.2" y="895.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">dp_proof_path</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" underlinedText="true" modelName="internal" modelPosition="c" autoSizePolicy="content">id_kkm</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -644,10 +644,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="126.0" x="2116.6" y="956.0"/>
+          <y:Geometry height="42.0" width="96.0" x="2605.5" y="836.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">payment_status</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">id_mapel</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -656,23 +656,23 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="185.0" x="2262.1" y="900.8"/>
+          <y:Geometry height="42.0" width="96.0" x="2562.6" y="1099.2"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">email_reminder_sent_at</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">id_kelas</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
     </node>
     <node id="n55">
-      <data key="d_kind">entity</data>
+      <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="52.0" width="134.0" x="1283.8" y="1793.1"/>
+          <y:Geometry height="42.0" width="133.0" x="2677.1" y="1062.4"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">booking_slots</y:NodeLabel>
-          <y:Shape type="rectangle"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">id_tahun_ajaran</y:NodeLabel>
+          <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
     </node>
@@ -680,10 +680,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="1713.5" y="1907.4"/>
+          <y:Geometry height="42.0" width="96.0" x="2610.7" y="1312.1"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" underlinedText="true" modelName="internal" modelPosition="c" autoSizePolicy="content">id</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">nilai_kkm</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -692,10 +692,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="1793.7" y="1982.7"/>
+          <y:Geometry height="42.0" width="96.0" x="2727.3" y="1302.8"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">booking_id</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">created_at</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -704,23 +704,23 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="1448.9" y="2101.5"/>
+          <y:Geometry height="42.0" width="96.0" x="2610.6" y="1531.4"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">tanggal</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">updated_at</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
     </node>
     <node id="n59">
-      <data key="d_kind">attribute</data>
+      <data key="d_kind">entity</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="1496.6" y="2200.6"/>
+          <y:Geometry height="52.0" width="120.0" x="1812.9" y="968.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">slot_waktu</y:NodeLabel>
-          <y:Shape type="ellipse"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">wali_siswa</y:NodeLabel>
+          <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
     </node>
@@ -728,10 +728,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="1132.2" y="2187.4"/>
+          <y:Geometry height="42.0" width="118.0" x="1915.5" y="346.4"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">status</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" underlinedText="true" modelName="internal" modelPosition="c" autoSizePolicy="content">id_wali_siswa</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -740,23 +740,23 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="1141.0" y="2297.0"/>
+          <y:Geometry height="42.0" width="96.0" x="1970.5" y="245.6"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">created_at</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">id_user</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
     </node>
     <node id="n62">
-      <data key="d_kind">entity</data>
+      <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="52.0" width="120.0" x="804.8" y="1793.1"/>
+          <y:Geometry height="42.0" width="96.0" x="2206.0" y="519.7"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">transaksi</y:NodeLabel>
-          <y:Shape type="rectangle"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">id_siswa</y:NodeLabel>
+          <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
     </node>
@@ -764,10 +764,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="987.4" y="2187.4"/>
+          <y:Geometry height="42.0" width="96.0" x="2276.7" y="435.5"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" underlinedText="true" modelName="internal" modelPosition="c" autoSizePolicy="content">id</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">hubungan</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -776,10 +776,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="978.6" y="2297.0"/>
+          <y:Geometry height="42.0" width="96.0" x="2425.2" y="764.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">booking_id</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">created_at</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -788,23 +788,23 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="825.1" y="2159.0"/>
+          <y:Geometry height="42.0" width="96.0" x="2516.8" y="704.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">nominal</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">updated_at</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
     </node>
     <node id="n66">
-      <data key="d_kind">attribute</data>
+      <data key="d_kind">entity</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="111.0" x="788.8" y="2265.2"/>
+          <y:Geometry height="52.0" width="120.0" x="1644.4" y="1924.1"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">metode_bayar</y:NodeLabel>
-          <y:Shape type="ellipse"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">nilai_siswa</y:NodeLabel>
+          <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
     </node>
@@ -812,10 +812,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="148.0" x="644.7" y="2101.5"/>
+          <y:Geometry height="42.0" width="126.0" x="2134.1" y="2330.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">tanggal_transaksi</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" underlinedText="true" modelName="internal" modelPosition="c" autoSizePolicy="content">id_nilai_siswa</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -824,10 +824,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="623.0" y="2200.6"/>
+          <y:Geometry height="42.0" width="96.0" x="2214.3" y="2419.4"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">catatan</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">id_siswa</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -836,10 +836,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="529.5" y="2016.7"/>
+          <y:Geometry height="42.0" width="96.0" x="2047.9" y="2398.2"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">created_at</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">id_mapel</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -848,10 +848,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="464.4" y="2105.4"/>
+          <y:Geometry height="42.0" width="133.0" x="2074.8" y="2498.4"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">base_price</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">id_tahun_ajaran</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -860,23 +860,23 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="141.0" x="383.6" y="1907.4"/>
+          <y:Geometry height="42.0" width="103.0" x="1930.7" y="2458.3"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">additional_price</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">nilai_tugas</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
     </node>
     <node id="n72">
-      <data key="d_kind">entity</data>
+      <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="52.0" width="120.0" x="501.8" y="1413.2"/>
+          <y:Geometry height="42.0" width="118.0" x="1953.0" y="2563.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">settings</y:NodeLabel>
-          <y:Shape type="rectangle"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">nilai_ulangan</y:NodeLabel>
+          <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
     </node>
@@ -884,10 +884,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="315.9" y="1794.3"/>
+          <y:Geometry height="42.0" width="141.0" x="1771.6" y="2510.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" underlinedText="true" modelName="internal" modelPosition="c" autoSizePolicy="content">id</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">rata_rata_harian</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -896,10 +896,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="224.6" y="1855.7"/>
+          <y:Geometry height="42.0" width="96.0" x="1828.2" y="2612.4"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">key_name</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">nilai_uts</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -908,10 +908,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="175.8" y="1165.8"/>
+          <y:Geometry height="42.0" width="96.0" x="1651.3" y="2542.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">value</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">nilai_uas</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -920,7 +920,19 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="60.0" y="1149.0"/>
+          <y:Geometry height="42.0" width="96.0" x="1687.7" y="2646.0"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">created_at</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n77">
+      <data key="d_kind">attribute</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="42.0" width="96.0" x="1533.8" y="2553.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
           <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">updated_at</y:NodeLabel>
@@ -928,27 +940,15 @@
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n77">
+    <node id="n78">
       <data key="d_kind">entity</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="52.0" width="126.0" x="607.0" y="939.4"/>
+          <y:Geometry height="52.0" width="120.0" x="967.9" y="1677.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">booking_logs</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">rapor</y:NodeLabel>
           <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n78">
-      <data key="d_kind">attribute</data>
-      <data key="d_node">
-        <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="211.2" y="1026.3"/>
-          <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" underlinedText="true" modelName="internal" modelPosition="c" autoSizePolicy="content">id</y:NodeLabel>
-          <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
     </node>
@@ -956,10 +956,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="92.9" y="989.0"/>
+          <y:Geometry height="42.0" width="96.0" x="669.8" y="2237.8"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">booking_id</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" underlinedText="true" modelName="internal" modelPosition="c" autoSizePolicy="content">id_rapor</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -968,10 +968,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="298.6" y="826.3"/>
+          <y:Geometry height="42.0" width="96.0" x="594.0" y="2317.5"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">event_type</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">id_siswa</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -980,10 +980,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="198.9" y="765.1"/>
+          <y:Geometry height="42.0" width="133.0" x="499.6" y="2397.1"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">actor</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">id_tahun_ajaran</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -992,10 +992,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="432.4" y="652.9"/>
+          <y:Geometry height="42.0" width="96.0" x="558.9" y="2115.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">actor_role</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">sakit</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -1004,10 +1004,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="355.4" y="574.3"/>
+          <y:Geometry height="42.0" width="96.0" x="472.4" y="2183.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">payload</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">izin</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -1016,10 +1016,10 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="606.8" y="519.7"/>
+          <y:Geometry height="42.0" width="96.0" x="386.0" y="2251.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">notes</y:NodeLabel>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">alpa</y:NodeLabel>
           <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
@@ -1028,7 +1028,67 @@
       <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="42.0" width="96.0" x="551.2" y="424.8"/>
+          <y:Geometry height="42.0" width="155.0" x="446.0" y="1974.1"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">catatan_wali_kelas</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n86">
+      <data key="d_kind">attribute</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="42.0" width="133.0" x="352.7" y="2034.4"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">status_kenaikan</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n87">
+      <data key="d_kind">attribute</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="42.0" width="111.0" x="259.3" y="2094.6"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">is_finalized</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n88">
+      <data key="d_kind">attribute</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="42.0" width="111.0" x="412.9" y="1820.7"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">finalized_at</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n89">
+      <data key="d_kind">attribute</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="42.0" width="111.0" x="281.6" y="1873.2"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">finalized_by</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n90">
+      <data key="d_kind">attribute</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="42.0" width="96.0" x="167.4" y="1921.9"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
           <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">created_at</y:NodeLabel>
@@ -1036,167 +1096,179 @@
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n86">
-      <data key="d_kind">relationship</data>
-      <data key="d_node">
-        <y:ShapeNode>
-          <y:Geometry height="74.0" width="120.0" x="1539.7" y="1165.3"/>
-          <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">dipesan pada</y:NodeLabel>
-          <y:Shape type="diamond"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n87">
-      <data key="d_kind">relationship</data>
-      <data key="d_node">
-        <y:ShapeNode>
-          <y:Geometry height="74.0" width="120.0" x="1266.7" y="823.0"/>
-          <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">melakukan</y:NodeLabel>
-          <y:Shape type="diamond"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n88">
-      <data key="d_kind">relationship</data>
-      <data key="d_node">
-        <y:ShapeNode>
-          <y:Geometry height="74.0" width="120.0" x="1388.2" y="1355.3"/>
-          <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">memiliki</y:NodeLabel>
-          <y:Shape type="diamond"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n89">
-      <data key="d_kind">relationship</data>
-      <data key="d_node">
-        <y:ShapeNode>
-          <y:Geometry height="74.0" width="120.0" x="1145.2" y="1355.3"/>
-          <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">memiliki</y:NodeLabel>
-          <y:Shape type="diamond"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n90">
-      <data key="d_kind">relationship</data>
-      <data key="d_node">
-        <y:ShapeNode>
-          <y:Geometry height="74.0" width="120.0" x="1047.8" y="928.4"/>
-          <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
-          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">memiliki</y:NodeLabel>
-          <y:Shape type="diamond"/>
-        </y:ShapeNode>
-      </data>
-    </node>
     <node id="n91">
-      <data key="d_kind">label</data>
+      <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="27.0" width="30.0" x="1624.7" y="1364.1"/>
+          <y:Geometry height="42.0" width="96.0" x="351.1" y="1672.4"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">1</y:NodeLabel>
-          <y:Shape type="rectangle"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">updated_at</y:NodeLabel>
+          <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
     </node>
     <node id="n92">
-      <data key="d_kind">label</data>
+      <data key="d_kind">attribute</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="27.0" width="30.0" x="1544.7" y="1013.5"/>
+          <y:Geometry height="42.0" width="103.0" x="227.1" y="1701.5"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">N</y:NodeLabel>
-          <y:Shape type="rectangle"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">narasi_koko</y:NodeLabel>
+          <y:Shape type="ellipse"/>
         </y:ShapeNode>
       </data>
     </node>
     <node id="n93">
-      <data key="d_kind">label</data>
+      <data key="d_kind">relationship</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="27.0" width="30.0" x="1181.3" y="783.7"/>
+          <y:Geometry height="74.0" width="120.0" x="1272.9" y="892.4"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">1</y:NodeLabel>
-          <y:Shape type="rectangle"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">memiliki</y:NodeLabel>
+          <y:Shape type="diamond"/>
         </y:ShapeNode>
       </data>
     </node>
     <node id="n94">
-      <data key="d_kind">label</data>
+      <data key="d_kind">relationship</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="27.0" width="30.0" x="1442.2" y="909.3"/>
+          <y:Geometry height="74.0" width="120.0" x="997.2" y="1123.8"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">N</y:NodeLabel>
-          <y:Shape type="rectangle"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">berada di</y:NodeLabel>
+          <y:Shape type="diamond"/>
         </y:ShapeNode>
       </data>
     </node>
     <node id="n95">
-      <data key="d_kind">label</data>
+      <data key="d_kind">relationship</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="27.0" width="30.0" x="1505.3" y="1062.9"/>
+          <y:Geometry height="74.0" width="120.0" x="1971.1" y="1478.3"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">1</y:NodeLabel>
-          <y:Shape type="rectangle"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">untuk</y:NodeLabel>
+          <y:Shape type="diamond"/>
         </y:ShapeNode>
       </data>
     </node>
     <node id="n96">
-      <data key="d_kind">label</data>
+      <data key="d_kind">relationship</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="27.0" width="30.0" x="1361.1" y="1694.7"/>
+          <y:Geometry height="74.0" width="120.0" x="1548.7" y="1123.8"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">N</y:NodeLabel>
-          <y:Shape type="rectangle"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">berada di</y:NodeLabel>
+          <y:Shape type="diamond"/>
         </y:ShapeNode>
       </data>
     </node>
     <node id="n97">
-      <data key="d_kind">label</data>
+      <data key="d_kind">relationship</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="27.0" width="30.0" x="1442.1" y="1062.9"/>
+          <y:Geometry height="74.0" width="120.0" x="1632.9" y="1601.4"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">1</y:NodeLabel>
-          <y:Shape type="rectangle"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">pada</y:NodeLabel>
+          <y:Shape type="diamond"/>
         </y:ShapeNode>
       </data>
     </node>
     <node id="n98">
-      <data key="d_kind">label</data>
+      <data key="d_kind">relationship</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="27.0" width="30.0" x="938.3" y="1694.7"/>
+          <y:Geometry height="74.0" width="120.0" x="1632.9" y="892.4"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">N</y:NodeLabel>
-          <y:Shape type="rectangle"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">dikelola</y:NodeLabel>
+          <y:Shape type="diamond"/>
         </y:ShapeNode>
       </data>
     </node>
     <node id="n99">
+      <data key="d_kind">relationship</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="74.0" width="120.0" x="1357.1" y="1123.8"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">milik</y:NodeLabel>
+          <y:Shape type="diamond"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n100">
+      <data key="d_kind">relationship</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="74.0" width="120.0" x="1272.9" y="1601.4"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">milik</y:NodeLabel>
+          <y:Shape type="diamond"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n101">
+      <data key="d_kind">relationship</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="74.0" width="120.0" x="1791.2" y="1790.0"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">untuk</y:NodeLabel>
+          <y:Shape type="diamond"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n102">
+      <data key="d_kind">relationship</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="74.0" width="120.0" x="1452.9" y="1913.1"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">pada</y:NodeLabel>
+          <y:Shape type="diamond"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n103">
+      <data key="d_kind">relationship</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="74.0" width="120.0" x="934.7" y="1478.3"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">milik</y:NodeLabel>
+          <y:Shape type="diamond"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n104">
+      <data key="d_kind">relationship</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="74.0" width="120.0" x="1114.6" y="1790.0"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="line" width="1.0"/>
+          <y:NodeLabel fontSize="12" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">pada</y:NodeLabel>
+          <y:Shape type="diamond"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n105">
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="27.0" width="30.0" x="1416.8" y="951.9"/>
+          <y:Geometry height="27.0" width="30.0" x="1411.6" y="881.8"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">1</y:NodeLabel>
@@ -1204,11 +1276,11 @@
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n100">
+    <node id="n106">
       <data key="d_kind">label</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="27.0" width="30.0" x="768.8" y="951.9"/>
+          <y:Geometry height="27.0" width="30.0" x="1224.2" y="950.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
           <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">N</y:NodeLabel>
@@ -1216,14 +1288,278 @@
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n101">
+    <node id="n107">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="27.0" width="30.0" x="1109.5" y="1030.6"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">1</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n108">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="27.0" width="30.0" x="974.8" y="1264.0"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">N</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n109">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="27.0" width="30.0" x="1991.5" y="1641.4"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">1</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n110">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="27.0" width="30.0" x="2040.7" y="1362.2"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">N</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n111">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="27.0" width="30.0" x="1256.4" y="1024.5"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">1</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n112">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="27.0" width="30.0" x="1930.9" y="1270.0"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">N</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n113">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="27.0" width="30.0" x="1403.0" y="1855.6"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">1</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n114">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="27.0" width="30.0" x="1952.8" y="1394.2"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">N</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n115">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="27.0" width="30.0" x="1584.2" y="881.8"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">1</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n116">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="27.0" width="30.0" x="1771.6" y="950.0"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">N</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n117">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="27.0" width="30.0" x="1064.9" y="1270.0"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">1</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n118">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="27.0" width="30.0" x="1739.4" y="1024.5"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">N</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n119">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="27.0" width="30.0" x="1043.0" y="1394.2"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">1</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n120">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="27.0" width="30.0" x="1592.8" y="1855.6"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">N</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n121">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="27.0" width="30.0" x="1923.3" y="1740.4"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">1</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n122">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="27.0" width="30.0" x="1749.0" y="1886.6"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">N</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n123">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="27.0" width="30.0" x="1398.2" y="1936.6"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">1</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n124">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="27.0" width="30.0" x="1604.6" y="1936.6"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">N</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n125">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="27.0" width="30.0" x="955.1" y="1362.2"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">1</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n126">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="27.0" width="30.0" x="1004.3" y="1641.4"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">N</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n127">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="27.0" width="30.0" x="1246.8" y="1886.6"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">1</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n128">
+      <data key="d_kind">label</data>
+      <data key="d_node">
+        <y:ShapeNode>
+          <y:Geometry height="27.0" width="30.0" x="1072.5" y="1740.4"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
+          <y:NodeLabel fontSize="13" fontStyle="plain" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">N</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n129">
       <data key="d_kind">title</data>
       <data key="d_node">
         <y:ShapeNode>
-          <y:Geometry height="40.0" width="620.0" x="943.6" y="60.0"/>
+          <y:Geometry height="40.0" width="620.0" x="1131.7" y="60.0"/>
           <y:Fill color="#FFFFFF" transparent="true"/>
           <y:BorderStyle color="#1F3A5F" type="none" width="0.0"/>
-          <y:NodeLabel fontSize="18" fontStyle="bold" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Entity Relationship Diagram (Chen) — SW Beauty Salon</y:NodeLabel>
+          <y:NodeLabel fontSize="18" fontStyle="bold" alignment="center" modelName="internal" modelPosition="c" autoSizePolicy="content">Entity Relationship Diagram (Chen) — SI Nilai Siswa SDN 3 Mekarsari</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -1390,7 +1726,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e18" source="n10" target="n20">
+    <edge id="e18" source="n20" target="n21">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1399,7 +1735,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e19" source="n10" target="n21">
+    <edge id="e19" source="n20" target="n22">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1408,7 +1744,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e20" source="n10" target="n22">
+    <edge id="e20" source="n20" target="n23">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1417,7 +1753,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e21" source="n10" target="n23">
+    <edge id="e21" source="n20" target="n24">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1426,7 +1762,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e22" source="n10" target="n24">
+    <edge id="e22" source="n20" target="n25">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1435,7 +1771,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e23" source="n25" target="n26">
+    <edge id="e23" source="n20" target="n26">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1444,7 +1780,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e24" source="n25" target="n27">
+    <edge id="e24" source="n27" target="n28">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1453,7 +1789,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e25" source="n25" target="n28">
+    <edge id="e25" source="n27" target="n29">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1462,7 +1798,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e26" source="n25" target="n29">
+    <edge id="e26" source="n27" target="n30">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1471,7 +1807,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e27" source="n25" target="n30">
+    <edge id="e27" source="n27" target="n31">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1480,7 +1816,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e28" source="n25" target="n31">
+    <edge id="e28" source="n27" target="n32">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1489,7 +1825,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e29" source="n25" target="n32">
+    <edge id="e29" source="n27" target="n33">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1498,7 +1834,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e30" source="n25" target="n33">
+    <edge id="e30" source="n34" target="n35">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1507,7 +1843,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e31" source="n25" target="n34">
+    <edge id="e31" source="n34" target="n36">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1516,7 +1852,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e32" source="n25" target="n35">
+    <edge id="e32" source="n34" target="n37">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1525,7 +1861,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e33" source="n25" target="n36">
+    <edge id="e33" source="n34" target="n38">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1534,7 +1870,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e34" source="n25" target="n37">
+    <edge id="e34" source="n34" target="n39">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1543,7 +1879,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e35" source="n25" target="n38">
+    <edge id="e35" source="n34" target="n40">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1552,7 +1888,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e36" source="n25" target="n39">
+    <edge id="e36" source="n34" target="n41">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1561,7 +1897,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e37" source="n25" target="n40">
+    <edge id="e37" source="n34" target="n42">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1570,7 +1906,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e38" source="n25" target="n41">
+    <edge id="e38" source="n34" target="n43">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1579,7 +1915,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e39" source="n25" target="n42">
+    <edge id="e39" source="n34" target="n44">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1588,7 +1924,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e40" source="n25" target="n43">
+    <edge id="e40" source="n34" target="n45">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1597,7 +1933,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e41" source="n25" target="n44">
+    <edge id="e41" source="n34" target="n46">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1606,7 +1942,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e42" source="n25" target="n45">
+    <edge id="e42" source="n34" target="n47">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1615,7 +1951,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e43" source="n25" target="n46">
+    <edge id="e43" source="n34" target="n48">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1624,7 +1960,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e44" source="n25" target="n47">
+    <edge id="e44" source="n34" target="n49">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1633,7 +1969,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e45" source="n25" target="n48">
+    <edge id="e45" source="n34" target="n50">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1642,7 +1978,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e46" source="n25" target="n49">
+    <edge id="e46" source="n51" target="n52">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1651,7 +1987,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e47" source="n25" target="n50">
+    <edge id="e47" source="n51" target="n53">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1660,7 +1996,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e48" source="n25" target="n51">
+    <edge id="e48" source="n51" target="n54">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1669,7 +2005,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e49" source="n25" target="n52">
+    <edge id="e49" source="n51" target="n55">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1678,7 +2014,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e50" source="n25" target="n53">
+    <edge id="e50" source="n51" target="n56">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1687,7 +2023,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e51" source="n25" target="n54">
+    <edge id="e51" source="n51" target="n57">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1696,7 +2032,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e52" source="n55" target="n56">
+    <edge id="e52" source="n51" target="n58">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1705,7 +2041,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e53" source="n55" target="n57">
+    <edge id="e53" source="n59" target="n60">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1714,7 +2050,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e54" source="n55" target="n58">
+    <edge id="e54" source="n59" target="n61">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1723,7 +2059,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e55" source="n55" target="n59">
+    <edge id="e55" source="n59" target="n62">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1732,7 +2068,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e56" source="n55" target="n60">
+    <edge id="e56" source="n59" target="n63">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1741,7 +2077,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e57" source="n55" target="n61">
+    <edge id="e57" source="n59" target="n64">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1750,7 +2086,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e58" source="n62" target="n63">
+    <edge id="e58" source="n59" target="n65">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1759,7 +2095,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e59" source="n62" target="n64">
+    <edge id="e59" source="n66" target="n67">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1768,7 +2104,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e60" source="n62" target="n65">
+    <edge id="e60" source="n66" target="n68">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1777,7 +2113,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e61" source="n62" target="n66">
+    <edge id="e61" source="n66" target="n69">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1786,7 +2122,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e62" source="n62" target="n67">
+    <edge id="e62" source="n66" target="n70">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1795,7 +2131,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e63" source="n62" target="n68">
+    <edge id="e63" source="n66" target="n71">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1804,7 +2140,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e64" source="n62" target="n69">
+    <edge id="e64" source="n66" target="n72">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1813,7 +2149,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e65" source="n62" target="n70">
+    <edge id="e65" source="n66" target="n73">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1822,7 +2158,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e66" source="n62" target="n71">
+    <edge id="e66" source="n66" target="n74">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1831,7 +2167,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e67" source="n72" target="n73">
+    <edge id="e67" source="n66" target="n75">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1840,7 +2176,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e68" source="n72" target="n74">
+    <edge id="e68" source="n66" target="n76">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1849,7 +2185,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e69" source="n72" target="n75">
+    <edge id="e69" source="n66" target="n77">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1858,7 +2194,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e70" source="n72" target="n76">
+    <edge id="e70" source="n78" target="n79">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1867,7 +2203,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e71" source="n77" target="n78">
+    <edge id="e71" source="n78" target="n80">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1876,7 +2212,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e72" source="n77" target="n79">
+    <edge id="e72" source="n78" target="n81">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1885,7 +2221,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e73" source="n77" target="n80">
+    <edge id="e73" source="n78" target="n82">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1894,7 +2230,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e74" source="n77" target="n81">
+    <edge id="e74" source="n78" target="n83">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1903,7 +2239,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e75" source="n77" target="n82">
+    <edge id="e75" source="n78" target="n84">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1912,7 +2248,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e76" source="n77" target="n83">
+    <edge id="e76" source="n78" target="n85">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1921,7 +2257,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e77" source="n77" target="n84">
+    <edge id="e77" source="n78" target="n86">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1930,7 +2266,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e78" source="n77" target="n85">
+    <edge id="e78" source="n78" target="n87">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1939,7 +2275,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e79" source="n10" target="n86">
+    <edge id="e79" source="n78" target="n88">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1948,7 +2284,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e80" source="n25" target="n86">
+    <edge id="e80" source="n78" target="n89">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1957,7 +2293,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e81" source="n0" target="n87">
+    <edge id="e81" source="n78" target="n90">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1966,7 +2302,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e82" source="n25" target="n87">
+    <edge id="e82" source="n78" target="n91">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1975,7 +2311,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e83" source="n25" target="n88">
+    <edge id="e83" source="n78" target="n92">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1984,7 +2320,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e84" source="n55" target="n88">
+    <edge id="e84" source="n0" target="n93">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -1993,7 +2329,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e85" source="n25" target="n89">
+    <edge id="e85" source="n20" target="n93">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -2002,7 +2338,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e86" source="n62" target="n89">
+    <edge id="e86" source="n20" target="n94">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -2011,7 +2347,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e87" source="n25" target="n90">
+    <edge id="e87" source="n34" target="n94">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
@@ -2020,7 +2356,178 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e88" source="n77" target="n90">
+    <edge id="e88" source="n27" target="n95">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e89" source="n51" target="n95">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e90" source="n20" target="n96">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e91" source="n51" target="n96">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e92" source="n10" target="n97">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e93" source="n51" target="n97">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e94" source="n0" target="n98">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e95" source="n59" target="n98">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e96" source="n34" target="n99">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e97" source="n59" target="n99">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e98" source="n34" target="n100">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e99" source="n66" target="n100">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e100" source="n27" target="n101">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e101" source="n66" target="n101">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e102" source="n10" target="n102">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e103" source="n66" target="n102">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e104" source="n34" target="n103">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e105" source="n78" target="n103">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e106" source="n10" target="n104">
+      <data key="d_edge">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e107" source="n78" target="n104">
       <data key="d_edge">
         <y:PolyLineEdge>
           <y:LineStyle color="#1F3A5F" type="line" width="1.4"/>

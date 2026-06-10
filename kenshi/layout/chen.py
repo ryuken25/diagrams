@@ -201,7 +201,7 @@ def layout_chen(diagram, r_e: float = 560.0, order_fn=None):
         for node, other, card in ((a, b, e.card_source), (b, a, e.card_target)):
             if not card or node.kind != ENTITY:
                 continue
-            t = 0.22
+            t = 0.26
             lx = node.cx + (other.cx - node.cx) * t
             ly = node.cy + (other.cy - node.cy) * t
             lab = make_label(f"_card{li}", card, lx, ly, font=13)
@@ -210,7 +210,7 @@ def layout_chen(diagram, r_e: float = 560.0, order_fn=None):
             li += 1
 
     obstacles = [x for x in diagram.nodes if x.kind != "label"]
-    de_collide_labels(labels, obstacles)
+    de_collide_labels(labels, obstacles, passes=400, step=7.0, gap=9.0)
     diagram.nodes.extend(labels)
 
     # --- title ---
